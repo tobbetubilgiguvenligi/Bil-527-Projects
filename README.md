@@ -53,7 +53,9 @@ have their good and bad points.
 quicker learning curve.
 * Joomla tends to have better looking templates and a friendlier
 community, even towards beginner users.
+
 **Cons**:
+
 * Joomla’s code can be messy at times and loading time tends to be
 longer because of that.
 * Its architecture limits how many levels of sub categories can be created.
@@ -65,7 +67,9 @@ longer because of that.
 * Drupal has a more flexible infrastructure, allowing you to create multiple
 sub-categories and with more advanced user features.
 * Fast loading time and reasonably clean code.
+* 
 **Cons**:
+
 * Longer learning curve and usually a longer install to launch time.
 * Although the community is supportive, there is less tolerance to new users
 and people asking very basic questions.
@@ -74,3 +78,12 @@ on your particular needs and willingness to work through each CMS’s individual
 problems.
 
 ![alt text](http://i.hizliresim.com/kvyyyW.jpg "Joomla Logo")
+
+Also pay attention to what modules and themes each CMS has as you may require
+one that is not on both platforms. It is best to weigh up the pros and cons of each
+CMS before you go ahead and create your website.
+Wordpress is different in many ways. Wordpress truly is built to serve primarily as a
+blogging platform. It also has a large community and flexibility to evolve beyond a
+simple blog, but it works best as a delivery medium for always changing material
+exactly the way blogs are supposed to be. That being said, you can create nice
+websites using Wordpress that are not blogs.
