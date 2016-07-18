@@ -236,3 +236,11 @@ If you continue with the prompts, you should now have a “Congratulations” pa
 
 ![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
 
+All you need to do now to start using your Joomla site is to go back to FTP and
+delete the “Installation” directory. Having this directory still on the site is a major
+security issue.
+You are now ready to start adding content to your website through the Joomla
+interface.
+
+
+![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
