@@ -119,3 +119,5 @@ Go to C-Panel, look for Fantastico and look under the Content Management
 section. Check the version of Joomla they have available. You want the 1.5 version
 at least. If it is a recent version, click “New Installation” (some versions of Fantastico
 also give you an option to upgrade your installation if you already have one).
+
+![alt text](http://i.hizliresim.com/r9obmz.png "Joomla Logo")
