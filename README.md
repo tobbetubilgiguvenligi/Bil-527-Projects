@@ -136,3 +136,47 @@ Personally, I find this option cumbersome, since you have to go ahead and
 delete all the Joomla pages from your site, so I always uncheck this. Then click
 “Install Joomla”.
 
+![alt text](http://i.hizliresim.com/pPpL40.jpg "Joomla Logo")
+
+Just give it a few minutes and C-Panel will create the database and install Joomla
+for you. It will then give you a link to your installation and to your administration,
+which is where you go to create articles and configure your site.
+
+##Manual Installation
+Now what do you do if your server does not provide you with C-Panel? Don’t worry,
+there are a few more steps, but it’s still not a long process.
+You will need a database, an FTP program and Joomla Installation files.
+###Step 1 – The Database
+Most hosts nowadays, allow you to create databases using their administration. You
+won’t have to know how to deal with the database once it’s created. All you need
+is the:
+* Database Name
+* Database ID
+* Database Password
+* Database Path (or address)
+Once you create the database, you should have access to all that information.
+Keep it safe, since Joomla will ask you for it during the installation.
+###Step 2 – Downloading Joomla Files
+Once you have the database set up, you need the Joomla Installation files. You can
+get the most updated files from: http://www.joomla.org/download.html
+Download them to your computer as a zip file and extract them to your website
+folder. Now, you have two options here. If you want Joomla to be your whole site, or
+the main part of your site, you should put it on the root folder, which is the main
+folder for your site.
+If instead, you already have a site and you only want Joomla to be part of that site,
+in a subfolder such as: http://mysite.com/joomla, then you should create that folder
+and extract all of the files to that folder instead.
+###Step 3 – Uploading Joomla Files
+Next, you should upload all of the Joomla files to your host using an FTP program, or
+extract the zip file directly to your server through the server’s file manager.
+THE COMPLETE BEGINNERS GUIDE TO
+JOOMLA
+http://simplytatydesigns.com | Taty Sena
+MakeUseOf.com
+
+###Step 4 – Running the Installation
+Once that is done, go to (if you uploaded Joomla to the root folder):
+http://yoursite.com/index.php
+Or if you uploaded it to a sub-folder, go to:
+http://yoursite.com/JoomlaFolder/index.php
+From that point on, follow the install wizard. 
