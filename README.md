@@ -339,3 +339,20 @@ Mail from - the email you want to use when sending messages from your Joomla sit
 From name:
 The sender name you want the receivers to see on the emails you send using your
 Joomla site.
+
+![alt text](http://i.hizliresim.com/PMZLbb.png "Joomla Logo")
+
+##Tools
+Most of the tools under this button can be used for general management
+maintenance of the site and communication among users. You can send private
+messages to users or mass messages to all of them.
+When another user is editing a file, a little padlock prevents others from editing it at
+the same time, and “checks it out” for the time being. The Global Check In basically
+makes everything that was checked out available for editing by checking them in
+again.
+Some mods cache some of the information for speed’s sake. You can clear that
+cache if you need to by using the “Clean Cache Admin” and the “Purge Cache
+Admin”.
+
+
+
