@@ -1,4 +1,4 @@
-# Joomla-Kullan-m-K-lavuzu
+# Joomla Kullanım Kılavuzu
 
 #Introduction
 Joomla is a great Content Management System with a lot of flexibility and with an
@@ -197,3 +197,13 @@ changing permissions, you must be very careful, because if you change the wrong
 folders, your site may be wide open to hackers.
 There are many discussions about which security setting should be used with Joomla.
 The basic permission settings are:
+
+![alt text](http://i.hizliresim.com/o7R1pb.png "Joomla Logo")
+
+Use the most secure setting for all non-public files whenever possible and when it
+doesn't affect installations and usage of Joomla.
+
+##Step 5 – License
+Next, read over Joomla’s license, it is pretty straightforward.
+
+![alt text](http://i.hizliresim.com/2ZVbzE.png "Joomla Logo")
