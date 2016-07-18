@@ -207,3 +207,32 @@ doesn't affect installations and usage of Joomla.
 Next, read over Joomla’s license, it is pretty straightforward.
 
 ![alt text](http://i.hizliresim.com/2ZVbzE.png "Joomla Logo")
+
+##Step 6 – Database Information
+The following page is where you will need your database information.
+
+![alt text](http://i.hizliresim.com/L3WLjV.png "Joomla Logo")
+
+Select:
+* The type of database (mysql is the most common)
+* Hostname (the address or path to your database)
+* Username and password (for the database)
+* Database name (you probably chose that when creating the database)
+Note: Depending on your host, you might not have been given a choice to select
+your options for the database creation. In that case, try hostname “localhost” and
+username and password provided by your hosting company.
+If you are installing on a localhost using WAMP or XAMPP, the Username is usually
+“root” and the password is nothing/blank.
+Unless you know what you are doing or have received an error during the
+installation, don’t bother looking at the advanced settings.
+Continue through the configuration. You will be asked to add basic information such
+as email and site name, and be given an option to install “Sample Data”. As I
+explained on the C-panel install, this option will install pages, menus and directories
+with Joomla information.
+If you’d like to see them and change them around as a way of learning how to use
+the site, leave this option. I usually don’t like having all those pages installed on my
+sites, because I have to delete them later.
+If you continue with the prompts, you should now have a “Congratulations” page. 
+
+![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
+
