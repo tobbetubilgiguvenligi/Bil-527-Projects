@@ -405,4 +405,39 @@ button if you want people to read a short preview of the article and have to cli
 the read more link on the article to read the whole thing. Basically, just select where
 you want the preview to end, click on it and then click on the “Read more” button. 
 
+![alt text](http://i.hizliresim.com/y4r7Qa.png "Joomla Logo")
 
+It will add some code to the article to create the “Read more” button. It is
+particularly useful if you are using a blog display (more on that later) and don’t want
+a list of complete articles to display on the same page.
+You will also notice that there are several advanced parameters you can modify
+such whether you want to display the name of the author or whether you want to
+display the default PDF, print and email icons that usually appear on the upper right
+hand side of Joomla articles.
+##Media Manager
+The media manager is your tool to organizing your images. One important thing to
+know about the media manager is where to put your files. By default, it comes with a
+few images (such as fruit and food). Those images can be accessed from the
+articles interface to be added to the articles, but only the folders and images
+placed inside the “Stories” folder can be accessed that way.
+You can still link to the other images, but you must find their address by hand and
+type it in, so for ease of use, I suggest you place all of the images you will be placing
+on the pages of your site in organized folders inside the “Stories” folder.
+Another thing to know is that the Media Manager does not re-size images, so if you
+are uploading huge images, they will distort your website once you place them on
+the website, and even if you change the image size by hand on the code within
+Joomla, those images will still take a long time to load and significantly slow your site
+down. So re-size and compress them with image software in your computer before
+uploading them to the Media Manager.
+##Front Page Manager
+The Front Page Manager is the manager that let’ you choose the order and
+particular features of the articles you have selected to appear on the home page
+(Front page) of your site. It can be reached from the “Content” menu. It’s the place
+where you can manage the options for the articles you chose to have on the front
+page of your site.
+One of the most useful features is the possibility of re-ordering them (which is a
+feature also available in sections, categories and articles). To do that, go to the front
+page manager, and look at the list of articles listed there. You will see a column
+called “order”. Change the numbers around to the order in which you would like
+them to appear on the page, then click the little save icon on that column, right
+next to the “order” title. 
