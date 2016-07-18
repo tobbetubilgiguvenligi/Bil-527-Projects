@@ -354,5 +354,55 @@ Some mods cache some of the information for speed’s sake. You can clear that
 cache if you need to by using the “Clean Cache Admin” and the “Purge Cache
 Admin”.
 
+#How To Publish Content
+The Joomla architecture requires that every article belong to a section and a
+category (unless you make it unspecified). Because of that, before you start
+creating the sections and categories, you need to think of the names that you might
+need. Think of a section as being a like a drawer in a filing cabinet, a category is the
+folder inside and articles as the documents inside the folder.
+Another good rule of thumb is to think of the sections and categories as one thinks of
+the menus and pull down menus. Let’s say you want to have a button called “About
+my company”, and when someone puts the mouse over that button, a pull down
+menu with the options “Staff” and “Locations” appears.
+That is a good guideline to creating your sections and categories. Make “about my
+company” a section and “Staff” and “Locations” the categories. They you can
+create one page for each person in the staff and place it inside the “Staff”
+Category and all different locations your business has on their own page with map,
+contact and information, and place each of those pages inside the “Locations”
+category. That way you can keep your site organized for when you are ready to
+create the menus.
+##Sections
+So to create a section, simply go to the “Content” menu button and select
+“Sections”. Once on the page, click the “New” button. You will be taken to a page
+with several options. The only one you really need is the Title, and a Description if you
+want to link a menu button to that section at some point, otherwise, just the title
+would be enough.
+##Categories
+From the content menu, you can also
+get to categories. Since they are subcategories
+of sections, they work in a
+similar way, and you should also add a
+Title, but this time you must also select
+a section for the category. All the
+other fields are optional and not
+necessary for the functioning of the
+site. 
+##Articles
+Now that you have your sections and categories created, we can start adding
+some real content to the site. To create an article, go to “Content”, articles and
+click “New”.
+You will be taken to a page that looks a little like Microsoft Word, but without as
+many features. It is what we call a WYSIWYG (What You See Is What You Get)
+interface. What that means is that whatever you do on this page will be translated
+by the software into HTML which can be read by web browsers as a webpage.
+Start by adding the title. The alias is not necessary. You must then select a section
+and the category (which is why you had to create them first). You can then add the
+text and images in either view, the standard WYSIWYG viewer or directly to the HMTL
+(by clicking the little HTML icon). You can also add SEO (Search Engine Optimization)
+information by clicking on the Meta Tags option on the right hand side.
+One other button worth mentioning is the “Read more” button. You would use this
+button if you want people to read a short preview of the article and have to click on
+the read more link on the article to read the whole thing. Basically, just select where
+you want the preview to end, click on it and then click on the “Read more” button. 
 
 
