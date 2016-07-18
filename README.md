@@ -302,3 +302,40 @@ You can even have it so there is no index.php in the URL.
 Under the system settings you will see several options you might want to consider
 modifying, which control whether users can register on your site and what kind of
 privileges they can have. Some of the most important features are:
+
+![alt text](http://i.hizliresim.com/goJ3DN.png "Joomla Logo")
+
+##User settings:
+Allow user registration (yes, no) – Determines whether people are allowed to register
+as site users or not. If you select yes, you can determine what level of access the
+new users will have when they sign up. The options are:
+New user registration type:
+* Registered – Can’t edit or publish any articles. The user is simply a registered
+user of the site with no privileges.
+Author – Can create content and determine where it should go and some
+minor settings relating to their individual articles.
+* Editor – Has the same ability as the above users, but they can also edit articles
+by other users.
+* Publisher – Can do all of the above, plus the ability to choose whether an
+article will be published or not.
+(Detailed information can be found at: http://docs.joomla.org/)
+
+New User account activation (yes, no) - Determines whether the site requires that
+they respond to an activation email.
+Path to media folder - if you decide to change where the media manager files are
+stored you can put the new URL here.
+Path to image folder - if you decide to change where your photos are stored you
+can put the new URL here.
+Minimum User Level for Media Manager (author) – Allows you to decide which kinds
+of users can have access to your media manager, which would allow them to
+upload pictures, delete them and move them. Author is the default choice, since
+they might need access to upload images to articles they create.
+Most of the other ones you should only change if you know what they do.
+###Server
+Most options will already be set for you during installation. The options you must
+change are:
+Under mail settings:
+Mail from - the email you want to use when sending messages from your Joomla site
+From name:
+The sender name you want the receivers to see on the emails you send using your
+Joomla site.
