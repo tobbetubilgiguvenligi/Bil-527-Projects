@@ -183,3 +183,17 @@ Or if you uploaded it to a sub-folder, go to:
 http://yoursite.com/JoomlaFolder/index.php
 From that point on, follow the install wizard. 
 
+![alt text](http://i.hizliresim.com/PMZgQ7.png "Joomla Logo")
+
+It will ask you for a language, and then it will check whether your server can handle
+Joomla without any problems.
+On some specific hosts, Joomla's folders might not default to their correct permission 
+settings, which would cause it to display an error saying 'Access is not allowed'. In
+that case, you might have to access those folders and change the permissions by
+hand.
+Some hosts provide an interface on their administration that allows you to do that,
+otherwise, check the permission instructions on the FTP program you are using. When
+changing permissions, you must be very careful, because if you change the wrong
+folders, your site may be wide open to hackers.
+There are many discussions about which security setting should be used with Joomla.
+The basic permission settings are:
