@@ -156,6 +156,7 @@ is the:
 * Database Path (or address)
 Once you create the database, you should have access to all that information.
 Keep it safe, since Joomla will ask you for it during the installation.
+
 ###Step 2 – Downloading Joomla Files
 Once you have the database set up, you need the Joomla Installation files. You can
 get the most updated files from: http://www.joomla.org/download.html
@@ -166,6 +167,7 @@ folder for your site.
 If instead, you already have a site and you only want Joomla to be part of that site,
 in a subfolder such as: http://mysite.com/joomla, then you should create that folder
 and extract all of the files to that folder instead.
+
 ###Step 3 – Uploading Joomla Files
 Next, you should upload all of the Joomla files to your host using an FTP program, or
 extract the zip file directly to your server through the server’s file manager.
