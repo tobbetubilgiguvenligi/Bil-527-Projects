@@ -87,3 +87,26 @@ blogging platform. It also has a large community and flexibility to evolve beyon
 simple blog, but it works best as a delivery medium for always changing material
 exactly the way blogs are supposed to be. That being said, you can create nice
 websites using Wordpress that are not blogs.
+
+#Installing Joomla
+
+##Basic Requirements
+
+There are two ways to install Joomla. Manually and using an installation software
+such as Fantastico or C-panel, which are installed in the host’s server and offer an
+user friendly interface for the management of the site and the installation of
+software, but the requirements for both are very similar.
+Since Joomla is a database driven system, it requires a SQL database to run. That’s
+where it will install its tables and store information you add to it. Joomla also does
+better on a relatively fast server, so if you have been on the same server for longer
+than you can remember, contact your host and check if it’s been upgraded and if
+that’s not the case, ask to be moved to a newer server.
+Joomla uses a lot of resources and your site will load faster if the server can handle
+many processes at once. There is also a chance that the technology on older
+servers won’t support Joomla’s newest versions. You can view a list of the most
+current requirements at: http://help.joomla.org/content/view/1938/302/
+If you are using Fantastico or C-Panel, check the version of the installer. You want
+the newest version of Joomla if possible, and at the very least one version behind.
+New versions usually carry security upgrades as well as bug fixes, and when dealing
+with a dynamic site, those fixes can make a big difference.
+To determine Joomla’s latest version, visit the Joomla website.
