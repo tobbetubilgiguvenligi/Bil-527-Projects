@@ -110,3 +110,12 @@ the newest version of Joomla if possible, and at the very least one version behi
 New versions usually carry security upgrades as well as bug fixes, and when dealing
 with a dynamic site, those fixes can make a big difference.
 To determine Joomla’s latest version, visit the Joomla website.
+
+Installation with C-Panel
+
+So you have checked all the requirements, what now? Well, if you have C-Panel
+installed on your server, you have your work cut out for you.
+Go to C-Panel, look for Fantastico and look under the Content Management
+section. Check the version of Joomla they have available. You want the 1.5 version
+at least. If it is a recent version, click “New Installation” (some versions of Fantastico
+also give you an option to upgrade your installation if you already have one).
