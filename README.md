@@ -44,8 +44,11 @@ meant to do the same thing – to help you create and manage your website. There
 have been many heated arguments between the Joomla and the Drupal users over
 which one is best. As someone who has used them both, my take is that they each
 have their good and bad points.
-Joomla
+
+###Joomla
+
 **Pros**:
+
 * Joomla is usually easier to get up and running and tends to have a
 quicker learning curve.
 * Joomla tends to have better looking templates and a friendlier
@@ -54,8 +57,11 @@ community, even towards beginner users.
 * Joomla’s code can be messy at times and loading time tends to be
 longer because of that.
 * Its architecture limits how many levels of sub categories can be created.
-Drupal
+* 
+###Drupal
+
 **Pros**:
+
 * Drupal has a more flexible infrastructure, allowing you to create multiple
 sub-categories and with more advanced user features.
 * Fast loading time and reasonably clean code.
