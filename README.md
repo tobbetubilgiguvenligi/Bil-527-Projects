@@ -180,3 +180,4 @@ http://yoursite.com/index.php
 Or if you uploaded it to a sub-folder, go to:
 http://yoursite.com/JoomlaFolder/index.php
 From that point on, follow the install wizard. 
+
