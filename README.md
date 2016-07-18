@@ -295,3 +295,10 @@ That will only work in some hosts if you use an Apache mod_rewrite, hence that
 option. The best way to find out is just to try without it, and if you have problems,
 change that option to yes.
 You can even have it so there is no index.php in the URL.
+
+![alt text](http://i.hizliresim.com/o7RDpR.png "Joomla Logo")
+
+##System
+Under the system settings you will see several options you might want to consider
+modifying, which control whether users can register on your site and what kind of
+privileges they can have. Some of the most important features are:
