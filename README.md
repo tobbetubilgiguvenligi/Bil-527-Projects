@@ -244,3 +244,54 @@ interface.
 
 
 ![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
+
+##Configuration Settings
+Once Joomla is installed, it’s time to start adding content and managing your site.
+You will need to log into the administration of the site. The default administration can
+be found at: http://(your site and folder where Joomla is installed)/administrator. You
+will need the username and password you set up during installation to log in and
+access the backend of your site.
+
+![alt text](http://i.hizliresim.com/bbdz6b.png "Joomla Logo")
+
+##User Manager
+The user manager allows you to create new users by clicking the “new” button and
+to edit existing users. You can also use this interface to define what permission group
+they belong to, which defines what they can and can’t do on the site. 
+For example, “super administrators” have full control of the site; meanwhile,
+registered users can access parts of the front end of the site that require a log in, but
+not much else.
+##Global Configuration
+There are three tags under Global Configuration, and your choices here affect the
+whole site. They are:
+###Site
+You can take the site offline (so no one can see it while you work on it). It will say the
+site is down for maintenance.
+
+![alt text](http://i.hizliresim.com/kvyNMq.png "Joomla Logo")
+
+You also have an option to change the site name and to choose a default
+WYSIWYG editor (Watch You See Is What You Get), which is the interface for you to
+create your articles, make fonts, bold, create tables, etc. The default is TinyMCE. You
+can install others if you like. Joomla has a large selection of extensions available for
+download, but more on that later.
+List length determines how long the lists of articles on the backend of your site will be
+by default, before Joomla displays a "next page". 
+Feed length and feed email determine the length and email for the RSS feed on
+your site.
+Global Site Meta Description and keywords is the description that Google and other
+search engines will pick up as being the general site description and keywords.
+##SEO settings
+Search Engine friendly URLs will modify the address of your pages from something
+that looks like this:
+http://yoursite.com/index.php?option=com_mtree&task=listcats&cat_id=1922&Itemi
+d=35
+to something that looks like this:
+http://yoursite.com/about-us/contact
+or
+http://yoursite.com/index.php/about-us/contact.html
+If you choose to add a suffix to the URL (that’s the .html part)
+That will only work in some hosts if you use an Apache mod_rewrite, hence that
+option. The best way to find out is just to try without it, and if you have problems,
+change that option to yes.
+You can even have it so there is no index.php in the URL.
