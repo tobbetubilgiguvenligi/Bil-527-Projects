@@ -121,3 +121,18 @@ at least. If it is a recent version, click “New Installation” (some versions
 also give you an option to upgrade your installation if you already have one).
 
 ![alt text](http://i.hizliresim.com/r9obmz.png "Joomla Logo")
+
+You will be asked to fill in the following fields:
+* What domain you want to use.
+* Install directory (leave it empty if you want it to be in the root folder of your
+site or create the name of a directory if you want it to be inside a folder within
+your site).
+* Admin username and password, email and full name.
+* Site name
+* Install user data (check box). This option will install pages, menus and
+directories with Joomla information. If you’d like to see them and change
+them around as a way of learning how to use the site, leave this option.
+Personally, I find this option cumbersome, since you have to go ahead and
+delete all the Joomla pages from your site, so I always uncheck this. Then click
+“Install Joomla”.
+
