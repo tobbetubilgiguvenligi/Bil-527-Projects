@@ -72,3 +72,5 @@ and people asking very basic questions.
 Basically, they are both excellent CMSs and which one you choose should depend
 on your particular needs and willingness to work through each CMS’s individual
 problems.
+
+![alt text](http://i.hizliresim.com/kvyyyW.jpg "Joomla Logo")
