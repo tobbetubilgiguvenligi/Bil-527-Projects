@@ -441,3 +441,28 @@ page manager, and look at the list of articles listed there. You will see a colu
 called “order”. Change the numbers around to the order in which you would like
 them to appear on the page, then click the little save icon on that column, right
 next to the “order” title. 
+
+![alt text](http://i.hizliresim.com/o7MYDo.png "Joomla Logo")
+
+Menus
+Now that you have created the
+sections, categories and articles, it is
+time to create the menus for your site.
+You can create several different
+menus and submenus using the “Menu
+>Menu Manager”.
+The most common one is the basic
+“Main Menu”, which is created by
+default and can also be found under
+the “Menu” button. There are endless
+choices with the menus. You can link
+them to sections, categories, single
+articles, external sites, components,
+wrappers, and many more.
+The one you will probably be using the
+most is the “Articles” menu. It allows
+you to link to Articles, Categories or
+Sections, and also to configure how
+you want them displayed. 
+
+![alt text](http://i.hizliresim.com/l1g0Jk.png "Joomla Logo")
