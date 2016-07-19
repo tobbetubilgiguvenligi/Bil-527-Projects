@@ -530,3 +530,17 @@ means you have 3 small columns on top of the footer so you can add several
 modules on the bottom of your site.
 Now, I mentioned you could download modules and also create modules, so how
 do you create one?
+Under the “Extensions” button, select Modules. Then click “New”. You will be given a
+large list of options to use. Some of them are modules of components you might
+have installed already, and some are default Joomla components. A few of those
+are very flexible modules, such as the HTML option.
+Basically it works like any other HMTL page. Whatever you want to add to it as far as
+text, links, or anything else that can be added to HTML, you can add it there.
+Once you have created the module, you must decide where you want it to go. You
+will find a pull down of positions on the upper left hand side of your screen.
+Select the position, make sure the module is enabled and save. You should now see
+it on your pages. If it is in a position you don’t like or you don’t see it, just return to
+your modules manager and select a different position.
+
+
+
