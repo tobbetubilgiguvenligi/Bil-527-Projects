@@ -566,3 +566,98 @@ incredible help.
 Joomla comes with a few templates already installed, but honestly, they are no
 help. One is called Beez, and it literally has bees (the insect) all over it. Not the most
 charming of templates…funny, but not an eye pleaser…
+
+![alt text](http://i.hizliresim.com/qBX43W.png "Joomla Logo")
+
+Other sites and developers have much more professional looking templates with
+several options for modules placement.
+A quick search for “Joomla templates” on Google will result in hundreds of sites
+where you can get free and paid templates.
+Installing them is usually very simple, consisting of going to the same interface you
+use to install most extensions.
+Once the template is installed, you can go to the “Extensions >Template Manager”
+and you should see the new template as one of the options. Check the bullet for
+that template and click on the star that says “Default” on the upper right hand side
+of the screen. Now if you go and look at your site you will see the new template.
+
+One thing that causes a lot
+of confusion is when
+someone uploads a
+template they saw a
+screenshot for, and once
+making it the default for
+their site, realize that their
+site looks very different from
+the picture of the template.
+The main reason that
+happens is because a lot of
+times, the templates comes
+
+##Joomla Community and Support
+One of Joomla’s major strengths is its community. Being such a large group of
+people, all levels of users are constantly asking questions, and most major ones have
+already been answered by someone somewhere, so checking out the forums
+(http://forum.joomla.org/) and the Wiki pages (http://docs.joomla.org/) can answer
+most questions you might have.
+
+#Conclusion
+Like most interfaces with a lot of features, Joomla can seem to have a long learning
+curve, due to all of its features and all its possible configurations. The task is much less
+time consuming that it seems, especially if you set yourself to master one feature at
+a time. In no time you can have an easy to update dynamic site that can also grow
+with you.
+Changing looks and adding features can be done in minutes and major
+configuration changes can be done by changing a few files. If you’ve ever
+considered using Joomla, I hope this guide inspires you to give it a try, and I hope it
+helps to make your new CMS experience a much easier one.
+If you ever run into any problems using Joomla, please ask for help at MakeUseOf
+Answers and someone will be able to assist you with your matter, or view other
+Joomla questions.
+Further Reading
+If you would to read more about Joomla, make sure you read the following Make
+Use Of articles:
+ 10 Best Free Joomla Extensions You Can't Live Without
+ Building an Intranet For Dummies – A Step by Step Guide
+ How To Build a Free Website That Makes Money Without Any Coding
+with several modules and
+plugins that have to be
+made active and placed
+on particular parts of the
+site. Read the instructions
+carefully if they are
+provided and don’t assume
+your site will look identical to
+the picture in the template.
+Some extensions I suggest:
+For some suggestions for
+extensions I would suggest
+checking out my MUO
+article:
+“10 Best Free Joomla
+Extensions You Can’t Live
+Without”
+Some sites for free
+templates:
+Joomla24
+Joomlaxe
+SiteGround
+
+Did you like this PDF Guide? Then why not visit MakeUseOf.com for daily posts on
+cool websites, free software and internet tips.
+If you want more great guides like this, why not subscribe to MakeUseOf and receive
+instant access to 20+ PDF Guides like this one covering wide range of topics.
+Moreover, you will be able to download free Cheat Sheets, Free Giveaways and
+other cool things.
+Subscribe to MakeUseOf : http://www.makeuseof.com/join
+MakeUseOf Links:
+Home: http://www.makeuseof.com
+MakeUseOf Directory: http://www.makeuseof.com/dir
+MakeUseOf Answers: http://www.makeuseof.com/answers
+Geeky Fun: http://www.makeuseof.com/tech-fun
+PDF Guides: http://www.makeuseof.com/pages/
+Tech Deals: http://www.makeuseof.com/pages/hot-tech-deals
+Follow MakeUseOf:
+RSS Feed: http://feedproxy.google.com/Makeuseof
+Newsletter: http://www.makeuseof.com/join
+Facebook: http://www.facebook.com/makeuseof
+Twitter: http://www.twitter.com/Makeuseof
