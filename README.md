@@ -16,12 +16,9 @@ answer some of the questions you might have.
 İçerik Yönetim Sistemi(CMS); bir veritabanının bir içeriğin formundaki bilgilerini düzenlemeye erişim sağladığı bir dizi yazılım dizgeleridir. Kulağa karmaşık gelmiş olabilir ama bunu düşündüğünüzden fazla kullandınız. Örneğin; hiç Facebook sayfanızı güncellemediniz mi? Yada bir blog oluşturmadınız mı? Amazon.com'dan bir kitap veya eBay'den teklif usulü birşeyler almadınız mı? New York Times Online okumuş olmanız yada Wikipedia üzerinden birşeyleri gözden geçirmeniz de bu bir çok örneğe dahil edilebilir. Örneklerde geçen bütün web siteleri belli tiplerdeki İçerik Yönetim Sistemleri ile çalışmaktadır. 
 Bizim odaklanacağımız tipler; basit bir arayüzden kendi web sitenizi yönetebilmenize imkan tanıyan, kendi sayfalarınızı ve menülerinizi programlama bilgisine ihtiyaç duymadan oluşturmanızı sağlayan İçerik Yönetim Sistemleri'dir.
 
-##About Joomla
-Joomla is a platform based on PHP and MySQL which was created in 2005 by a
-team of open source developers. It currently has 200,000 community users and
-contributors. Joomla is free to anyone who wants to download it and use it to create
-a website. It is also open to anyone who wants to create extensions and templates.
-The most current version of Joomla can be downloaded from
+##Joomla Hakkında
+
+Joomla 2005 yılında PHP ve MySQL baz alınarak bir açık kaynak geliştirici takımı tarafından oluşturulmuş bir platformdur.Güncel olarak toplamda 200.000 kişilik, kullanıcılar ve bağışçılardan oluşan bir topluluktur.Joomla indirmek isteyn ve bir site oluşturmak için kullanmak isteyen herkes için ücretsizdir. Ayrıca şablon ve uzantı oluşturmak isteyen herkese açıktır. En güncel versiyonunu indirmek için;
 http://www.joomla.org/download.html
 
 Why Joomla?
