@@ -542,5 +542,27 @@ Select the position, make sure the module is enabled and save. You should now se
 it on your pages. If it is in a position you don’t like or you don’t see it, just return to
 your modules manager and select a different position.
 
+![alt text](http://i.hizliresim.com/J2gpLE.png "Joomla Logo")
 
+##Components
+Components work as added features to your Joomla site. They are more complex
+additions than plugins or modules because they usually bring various features with
+them. Some famous components include JomSocial (not free), which creates a full
+social network within your Joomla site, or Acajoom, which is a powerful email list
+component.
 
+![alt text](http://i.hizliresim.com/AJlAZ7.png "Joomla Logo")
+
+Even though the installation follows the same process as the other extensions,
+because they are more complex, they usually require that several modules are
+enabled or that you configure the component, so follow the creator’s instructions.
+
+##Templates
+Anyone who opens the first page of their Joomla site will understand why the
+templates are so necessary. Though Joomla gives you full access to the site’s HTML
+and CSS, so you can make all the changes you want yourself, most people aren’t
+fluent in those languages. That’s where the pre-made templates can be an
+incredible help. 
+Joomla comes with a few templates already installed, but honestly, they are no
+help. One is called Beez, and it literally has bees (the insect) all over it. Not the most
+charming of templates…funny, but not an eye pleaser…
