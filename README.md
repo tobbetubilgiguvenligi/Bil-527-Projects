@@ -466,3 +466,67 @@ Sections, and also to configure how
 you want them displayed. 
 
 ![alt text](http://i.hizliresim.com/l1g0Jk.png "Joomla Logo")
+
+For example, I want to create a menu link that will point to a category in my site
+called “Sports”. I also want all my articles to appear in a blog format, with the
+beginning of the articles, followed by a “read more” button and displayed in 2
+columns. From the new menu options I select “Articles>Category Blog Layout”.
+Once you get comfortable with using Joomla and start expanding your site with
+components, you will get more menu types to choose from.
+
+##How to Design and Customize Your Site
+
+There are many features such as social bookmarks, modules connecting to mailing
+lists, calendars, photo albums, and an endless amount of other features that can be
+added to your Joomla site.
+They are actually one of the main advantages of having a dynamic site. You can
+script in many changes and features into your site, but if you have no intentions of
+learning how to script for Joomla, there are already over 5000 plugins, modules,
+templates and components available for download from
+http://extensions.joomla.org/, a huge percentage of which will be absolutely free.
+After you have downloaded them, check the particular instructions to see if there
+are any instructions out of the ordinary. If there aren’t you can get them to your site
+by following the instructions below.
+To install any of the features described below, all you do is go to the “Extensions”
+button and select “Install/Uninstall”. You will be taken to a page that allows you to
+search for the file on your computer or upload the file from a URL. That file is usually a
+zipped file, and it should not have been extracted.
+Once you found the file, click on “Upload and Install”. After a few moments you
+should get a message saying it has installed successfully. From that point, you can
+go to the Modules, plugins, components or template manager to enable them.
+
+![alt text](http://i.hizliresim.com/z4zgv6.png "Joomla Logo")
+
+ople tend to get a bit confused about the differences between plugins and
+modules, and about what components actually do. So let me try to clear up some
+of the misunderstandings.
+(You can find some of the free extensions I describe below at:
+http://www.makeuseof.com/tag/10-free-joomla-extensions-live/ )
+
+###Plugins
+Plugins are features that can be added to Joomla, which will appear within the
+articles themselves, or that relate to interfacing with the articles. For example, I love
+having options for people to share the articles on my Joomla sites and to bookmark
+them. This is something that should be added to each individual article so that it
+works properly, but I don’t want to have to add it to each page by hand.
+That’s where the plugins come into play. I searched the Joomla extensions site for
+social bookmarks and found several plugins that added that feature to my site. After
+installing one, and enabling it, now, when I write an article, the links to the social
+networks automatically appear on each page.
+
+###Modules
+Modules can be recognized as being those side boxes on dynamic websites. The
+difference between plugins and modules is that modules appear almost as side
+menus and shortcuts around the articles.
+For example, if you want to have a module that people can use to sign up for your
+newsletter directly from your page, you can download a module, or create one that
+allows people to do that. Then it’s a matter of deciding where you want that
+module to go.
+Each template has its particular slots that are created to hold modules. The most
+common ones are: Left bar, Right bar, Footer and Header. Most have many sub slots
+you can use, where they divide those main areas into smaller parts. For example,
+some templates have a user 1, user2, and user 3 on the bottom of the page. That
+means you have 3 small columns on top of the footer so you can add several
+modules on the bottom of your site.
+Now, I mentioned you could download modules and also create modules, so how
+do you create one?
