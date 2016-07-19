@@ -1,11 +1,7 @@
 # Joomla Kullanım Kılavuzu
 
 #Introduction
-Joomla is a great Content Management System with a lot of flexibility and with an
-easy-to-use user interface that a lot of people get intimidated about when they
-realize how many options and configurations are available. This manual is meant to
-serve as a guide to Joomla’s basic features and help you install and start your first
-Joomla website.
+Joomla içerisinde çok büyük esnekliklere sahip, kullanım kolaylığı sağlayan arayüzü ile içerisinde çok sayıda opsiyonları ve konfigürasyonları bulunan büyük bir içerik yönetim sistemidir. Bu manuel, Joomla'nın temel özelliklerini, kurulum aşamalarını ve ilk Joomla websitenizin başlangıcı için hazırlanmış bir rehber işlevi görmektedir. 
 
 ![alt text](http://www.webdoor.com.au/images/joomla.png "Joomla Logo")
 
@@ -15,17 +11,10 @@ hope this guide helps
 answer some of the questions you might have.
 
 
-##What is a CMS (Content Management System)?
-A Content Management System is a series of programming pages connected to a
-database that allows one to retrieve information from that database in the form of
-content. Sounds complicated? You’ve used one more often that you think.
-Have you ever updated your Facebook page or created a blog? Have you ever
-bought a book from Amazon.com or bid on something on eBay? Have you ever
-read The New York Times Online or checked something out on Wikipedia? All of
-these sites work with a type of Content Management System.
-The ones we will be focusing on are ones that allow you to manage your own
-website from a simple interface, to creating your own pages and menus without the
-need for knowing how to program yourself.
+##İçerik Yönetim Sistemi Nedir?
+
+İçerik Yönetim Sistemi(CMS); bir veritabanının bir içeriğin formundaki bilgilerini düzenlemeye erişim sağladığı bir dizi yazılım dizgeleridir. Kulağa karmaşık gelmiş olabilir ama bunu düşündüğünüzden fazla kullandınız. Örneğin; hiç Facebook sayfanızı güncellemediniz mi? Yada bir blog oluşturmadınız mı? Amazon.com'dan bir kitap veya eBay'den teklif usulü birşeyler almadınız mı? New York Times Online okumuş olmanız yada Wikipedia üzerinden birşeyleri gözden geçirmeniz de bu bir çok örneğe dahil edilebilir. Örneklerde geçen bütün web siteleri belli tiplerdeki İçerik Yönetim Sistemleri ile çalışmaktadır. 
+Bizim odaklanacağımız tipler; basit bir arayüzden kendi web sitenizi yönetebilmenize imkan tanıyan, kendi sayfalarınızı ve menülerinizi programlama bilgisine ihtiyaç duymadan oluşturmanızı sağlayan İçerik Yönetim Sistemleri'dir.
 
 ##About Joomla
 Joomla is a platform based on PHP and MySQL which was created in 2005 by a
