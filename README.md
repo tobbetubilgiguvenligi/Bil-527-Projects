@@ -1,15 +1,10 @@
 # Joomla Kullanım Kılavuzu
 
-#Introduction
+#Giriş
+
 Joomla içerisinde çok büyük esnekliklere sahip, kullanım kolaylığı sağlayan arayüzü ile içerisinde çok sayıda opsiyonları ve konfigürasyonları bulunan büyük bir içerik yönetim sistemidir. Bu manuel, Joomla'nın temel özelliklerini, kurulum aşamalarını ve ilk Joomla websitenizin başlangıcı için hazırlanmış bir rehber işlevi görmektedir. 
 
 ![alt text](http://www.webdoor.com.au/images/joomla.png "Joomla Logo")
-
-We have all been beginner
-users at some point, so I
-hope this guide helps
-answer some of the questions you might have.
-
 
 ##İçerik Yönetim Sistemi Nedir?
 
@@ -21,64 +16,43 @@ Bizim odaklanacağımız tipler; basit bir arayüzden kendi web sitenizi yönete
 Joomla 2005 yılında PHP ve MySQL baz alınarak bir açık kaynak geliştirici takımı tarafından oluşturulmuş bir platformdur.Güncel olarak toplamda 200.000 kişilik, kullanıcılar ve bağışçılardan oluşan bir topluluktur.Joomla indirmek isteyn ve bir site oluşturmak için kullanmak isteyen herkes için ücretsizdir. Ayrıca şablon ve uzantı oluşturmak isteyen herkese açıktır. En güncel versiyonunu indirmek için;
 http://www.joomla.org/download.html
 
-Why Joomla?
-There are three main free CMSs available today, and endless other less popular
-ones. The most popular Content Management Systems available are: Joomla,
-Drupal and Wordpress.
-The differences among them are quite significant, although they are basically
-meant to do the same thing – to help you create and manage your website. There
-have been many heated arguments between the Joomla and the Drupal users over
-which one is best. As someone who has used them both, my take is that they each
-have their good and bad points.
+##Neden Joomla?
+Günümüzde üç ana ve ücretsiz İçerik Yönetim Sistemi ve çok fazla sayıda popüler olmayan İçerik Yönetim Sistemleri bulunmaktadır. En popüler olanları: Joomla, Drupal ve Wordpress'tir.
+Temel olarak bakıldığında hepsi web sitenizi oluşturmanizda ve yönetmenizde yardımcı olsalar da aralarında büyük farklılıklar bulunmaktadır. Joomla ve Drupal kullanıcıları arasında hangisinin diğerinden üstün olduğuna dair büyük bir tartışma bulunmakla birlikte, iki sistemin de birbiriyle karşılaştırıldıklarında avantajları ve dezavantajları bulunmaktadır.  
 
 ###Joomla
 
-**Pros**:
+**Avantajları**:
 
-* Joomla is usually easier to get up and running and tends to have a
-quicker learning curve.
-* Joomla tends to have better looking templates and a friendlier
-community, even towards beginner users.
+* Joomla genelde çalışması ve düzenlenmesinin öğrenilmesi daha kolay olan bir sistemdir.
+* Joomla, başlangıç düzeyindeki kullanıcılar da dahil olmak üzere daha iyi görünümlü şablonlara sahip ve daha insancıl bir topluluktur.
 
-**Cons**:
+**Dezavantajları**:
 
-* Joomla’s code can be messy at times and loading time tends to be
-longer because of that.
-* Its architecture limits how many levels of sub categories can be created.
-* 
+* Joomla'nın kodları bazen dağınık bir yapıya sahip olabilmektedir ve bu sebepten dolayı çalışma süresi uzamaktadır.
+* Mimari sınırları, oluşturulan alt kategorilerin seviyeleridir.
+
 ###Drupal
 
 **Pros**:
 
-* Drupal has a more flexible infrastructure, allowing you to create multiple
-sub-categories and with more advanced user features.
-* Fast loading time and reasonably clean code.
-* 
+* Drupal daha esnek bir yapıya sahip olup, çoklu alt kategori oluşturulmasına izin veren ve daha fazla gelişmiş kullanıcı özelliklerine sahip olan bir yapıdır. 
+* Hızlı bir yükleme zamanı ve temiz bir cod yapısı bulunmaktadır.
+
 **Cons**:
 
-* Longer learning curve and usually a longer install to launch time.
-* Although the community is supportive, there is less tolerance to new users
-and people asking very basic questions.
-Basically, they are both excellent CMSs and which one you choose should depend
-on your particular needs and willingness to work through each CMS’s individual
-problems.
+* Genelde, kurulum ve yükleme aşamalarının öğrenimi daha zor ve uzun sürmektedir. 
+* Topluluk destekleyici bir yapıya sahip olsa da, yeni kullanıcılar ve sorulan basit sorulara karşı çok düşük toleransa sahip bir yapı sergilemektedir.
+
+Temel olarak, ikiside işlevsel ve başarılı iki İçerik Yönetim Sistemi olup kullanıcının ihtiyaç ve istekleri doğrultusunda kullanılmaktadır. 
 
 ![alt text](http://i.hizliresim.com/kvyyyW.jpg "Joomla Logo")
 
-Also pay attention to what modules and themes each CMS has as you may require
-one that is not on both platforms. It is best to weigh up the pros and cons of each
-CMS before you go ahead and create your website.
-Wordpress is different in many ways. Wordpress truly is built to serve primarily as a
-blogging platform. It also has a large community and flexibility to evolve beyond a
-simple blog, but it works best as a delivery medium for always changing material
-exactly the way blogs are supposed to be. That being said, you can create nice
-websites using Wordpress that are not blogs.
-
 #Installing Joomla
 
-##Basic Requirements
+##Temel İhtiyaçlar
 
-There are two ways to install Joomla. Manually and using an installation software
+Joomla'nın kurulumu için iki farklı yol bulunmaktadır. Manually and using an installation software
 such as Fantastico or C-panel, which are installed in the host’s server and offer an
 user friendly interface for the management of the site and the installation of
 software, but the requirements for both are very similar.
