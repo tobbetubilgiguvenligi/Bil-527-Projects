@@ -63,19 +63,12 @@ Bütün gereksinimleri kontrol ettiniz ve tamamladınız, sırada şimdi ne var?
 
 ![alt text](http://i.hizliresim.com/r9obmz.png "Joomla Logo")
 
-You will be asked to fill in the following fields:
-* What domain you want to use.
-* Install directory (leave it empty if you want it to be in the root folder of your
-site or create the name of a directory if you want it to be inside a folder within
-your site).
-* Admin username and password, email and full name.
-* Site name
-* Install user data (check box). This option will install pages, menus and
-directories with Joomla information. If you’d like to see them and change
-them around as a way of learning how to use the site, leave this option.
-Personally, I find this option cumbersome, since you have to go ahead and
-delete all the Joomla pages from your site, so I always uncheck this. Then click
-“Install Joomla”.
+Sizden aşağıda verilen alanları doldurmanız istenecek:
+* Kullanmak istediğiniz domain nedir?
+* Kurulum rehberi(Eğer kök klasörü içinde olmasını istiyorsanız boş bırakın ya da web sitenizin içinde olmasını istiyorsanız o zaman bir directory oluşturun.
+* Admin kullanıcı adı, şifresi, e-mail adresi ve tam adı.
+* Site adı
+* Kurulum kullanıcı bilgileri. (Bu opsiyon sayfaları, menüleri ve directoryleri Joomla bilgileri ile birlikte kurulumunu yapacaktır. Eğer web sitenin nasıl kullanılacağını öğrenirken bunları görmek ve değiştirmek istiyorsanız boş bırakabilirsiniz. Daha sonra "Joomla'yı Kur" 'a tıklayın. 
 
 ![alt text](http://i.hizliresim.com/pPpL40.jpg "Joomla Logo")
 
