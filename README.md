@@ -17,6 +17,7 @@ Joomla 2005 yılında PHP ve MySQL baz alınarak bir açık kaynak geliştirici 
 http://www.joomla.org/download.html
 
 ##Neden Joomla?
+
 Günümüzde üç ana ve ücretsiz İçerik Yönetim Sistemi ve çok fazla sayıda popüler olmayan İçerik Yönetim Sistemleri bulunmaktadır. En popüler olanları: Joomla, Drupal ve Wordpress'tir.
 Temel olarak bakıldığında hepsi web sitenizi oluşturmanizda ve yönetmenizde yardımcı olsalar da aralarında büyük farklılıklar bulunmaktadır. Joomla ve Drupal kullanıcıları arasında hangisinin diğerinden üstün olduğuna dair büyük bir tartışma bulunmakla birlikte, iki sistemin de birbiriyle karşılaştırıldıklarında avantajları ve dezavantajları bulunmaktadır.  
 
@@ -53,8 +54,11 @@ Temel olarak, ikiside işlevsel ve başarılı iki İçerik Yönetim Sistemi olu
 ##Temel İhtiyaçlar
 
 Joomla'nın kurulumu için iki farklı yol bulunmaktadır. Manuel olarak ve Fantastico ya da C-panel gibi sunucu serverı üzerinde kurulum yapan kurulum yazılımları gerekir. İki yazılım da site yönetimi için kullanıcı dostu arayüze sahip olan kurulum yazılımları olup, gereksinimleri de oldukça benzerdir. 
+
 Joomla bir veritabanı üzerinde çalışır bir sistem olmasından dolayı, çalışması için bir SQL veritabanı gerekir.Kurulumu yapılan tablolar ve eklediğiniz bilgilerin saklandığı yer SQL veritabanıdır. Joomla göreceli olarak daha hızlı serverlarda daha iyi bir çalışma performansı sergilemektedir. Sunucu ile iletişime geçip daha hızlı bir server bulduğu zaman sistemini onun üzerine taşımakta ve çalışmasını daha verimli bir hale getirmektedir.
+
 Joomla çok fazla sayıda kaynak kullanır ve eğer server bir çok süreçi aynı anda çözümleyebilirse, web sitenizde yaptığınız değişiklikler vs. daha hızlı bir şekilde yüklenir. Eski serverlar üzerinde bulunan teknoloji Joomla'nın en yeni versiyonunu destekleyemeyecektir. http://help.joomla.org/content/view/1938/302/ web sitesinden en güncel gereksinimlerin listesine göz atabilirsiniz.
+
 Eğer Fantastico ya da C-Panel kullanıyorsanız, kurulum versiyonunu kontrol edin. Eğer mümkünse, Joomla'nın en güncel versiyonunu, en kötü bir önceki versiyonunu kullanmayı isteyin. Yeni versiyonlar genelde bugları çözümleyen güvenlik düzenlemeleri içermektedir. Dinamik bir web site ile uğraştığınızda, bu düzenlemeler büyük bir fark yaratmaktadır. Joomla'nın en güncel versiyonunu görmek için, Joomla'nın web sitesini ziyaret ediniz.
 
 ##C-Panel ile Kurulum
@@ -75,9 +79,11 @@ Sizden aşağıda verilen alanları doldurmanız istenecek:
 Sadece bir kaç dakika beklemeniz gerekecek ve sonrasında C-Panel veritabanını oluşturacak ve Joomla'nın kurulumunu sizin için tamamlayacaktır. Size kurulum ve yönetim için bir link verecektir. Bu link aynı zamanda yazılarınızı oluşturduğunuz ve web sitenizi konfigüre ettiğiniz linktir. 
 
 ##Manuel Kurulum
+
 Eğer serverınız C-Panel'i sağlamıyorsa ne yapacaksınız? Endişelenmeyin, bir kaç adım daha uzun ama kesinlikle uzun bir süreç değildir. Bir veritabanı, bir FTP programı ve Joomla Kurulum dosyalarına ihtiyacınız olacaktır.  
 
 ###Step 1 – Veritabanı
+
 Günümüzde bütün sunuculular, kendi yönetimleri altında veritabanlarını kullanmamıza izin vermektedir. Sizin daha önceden oluşturulmuş bir veritabanıyla ilgili detaylı bir bilgiye sahip olmanıza gerek yoktur. Gereksinimler:
 * Database Adı
 * Database ID
@@ -86,6 +92,7 @@ Günümüzde bütün sunuculular, kendi yönetimleri altında veritabanlarını 
 Veritabanını oluşturduktan sonra bütün bu bilgilere ulaşmanız gerekir. Joomla kurulum boyunca size bunları sormaktadır, bu sayede güvenilir bir yapıya dönüşmektedir.
 
 ###Step 2 – Joomla Dosyalarını İndirmek
+
 Önce veritabanını oluşturduktan sonra, Joomla kurulum dosyalarına ihtiyacınız olacaktır. En son güncellenmiş dosyaları http://www.joomla.org/download.html adresinden indirebilirsiniz. 
 
 Bu dosyaları bir zip uzantısı ile bilgisayarınıza indirin ve daha sonra web sitenizin klasörüne çıkartın. Şuandan itibaren iki seçeneğiniz bulunmaktadır. Eğer Joomla'nın sitenizin bütününde yada ana kısmında olmasını istiyorsanız, dosyaları kök klasörüne koymanız gereklidir(Siteniz için bulunan ana klasör).
@@ -93,6 +100,7 @@ Bu dosyaları bir zip uzantısı ile bilgisayarınıza indirin ve daha sonra web
 Diğer seçenek ise, bir siteniz var ve Joomla'nın sitenizin belirli bir kısmında olmasını istiyorsanız örneğin; http://mysite.com/joomla , kendiniz bir klasör oluşturup dosyaları buraya çıkartmanız gerekir.
 
 ###Step 3 – Joomla Dosyalarını Yüklemek
+
 Bir sonraki adım, bütün Joomla dosyalarını sunucunuzun kullandığı FTP programına yüklemeniz gerekmektedir ya da serverınızın dosya yöneticine zip dosyalarını doğrudan çıkartın. 
 
 THE COMPLETE BEGINNERS GUIDE TO
@@ -103,29 +111,23 @@ MakeUseOf.com
 ###Step 4 – Kurulumu Çalıştırmak
 Bu adıma kadar gerekenler bittikten sonra, aşağıdaki linke gidiniz (eğer Joomla'yı kök klasörüne yüklediyseniz) :
 http://yoursite.com/index.php
+
 Eğer Joomla'yı bir alt klasöre yüklediyseniz aşağıdaki linke gidiniz:
 http://yoursite.com/JoomlaFolder/index.php
 Bu noktadan itibaren, kurulum sihirbazını takip edin. 
 
 ![alt text](http://i.hizliresim.com/PMZgQ7.png "Joomla Logo")
 
-It will ask you for a language, and then it will check whether your server can handle
-Joomla without any problems.
-On some specific hosts, Joomla's folders might not default to their correct permission 
-settings, which would cause it to display an error saying 'Access is not allowed'. In
-that case, you might have to access those folders and change the permissions by
-hand.
-Some hosts provide an interface on their administration that allows you to do that,
-otherwise, check the permission instructions on the FTP program you are using. When
-changing permissions, you must be very careful, because if you change the wrong
-folders, your site may be wide open to hackers.
-There are many discussions about which security setting should be used with Joomla.
-The basic permission settings are:
+Kurulum sihirbazı size dil ile ilgili soru sorduğunda, serverınızın Joomla'yı herhangi bir problem olmaksızın çalıştırıp çalıştırmadığına bakacaktır.
+Joomla'nın klasörleri, bazı özel sunucular üzerinde doğruluk izin ayarları default olarak bulunmamaktadır. Böyle bir durumda karşınıza 
+"Access is not allowed" hatası çıkacaktır. Bu durumda, sizin bu dosyalara erişim sağlamanız ve izinlerini değiştirmeniz gerekir.
+Bazı sunucular size kendi yönetimlerine erişim veren bir arayüz sağlarken, sağlamayan sunucularda kullandığınız FTP programı üzerinden izin komutlarını kontrol etmeniz gerekir. İzinleri değiştirdiğinizde, eğer yanlış bir klasör için bir izin değişikliği yaptıysanız siteniz hackerlar için açık bir konuma gelir ve sizin için bir tehdit oluşturur, bu sebepten dolayı bu işlemi yaparken çok dikkatli olunması gerekir
 
+Joomla ile birlikte kullanılan güvenlik ayarları ile ilgili bir çok tartışma bulunmaktadır.
+En temel izin ayarları:
 ![alt text](http://i.hizliresim.com/o7R1pb.png "Joomla Logo")
 
-Use the most secure setting for all non-public files whenever possible and when it
-doesn't affect installations and usage of Joomla.
+Public olmayan bütün dosyalar için mümkün oldukça ve kurulum ile Joomla kullanımını etkilemediği sürece en güvenilir ayar kullanılmalıdır.
 
 ##Step 5 – License
 Next, read over Joomla’s license, it is pretty straightforward.
