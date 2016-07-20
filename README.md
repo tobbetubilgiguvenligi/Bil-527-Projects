@@ -130,43 +130,35 @@ En temel izin ayarları:
 Public olmayan bütün dosyalar için mümkün oldukça ve kurulum ile Joomla kullanımını etkilemediği sürece en güvenilir ayar kullanılmalıdır.
 
 ##Step 5 – License
-Next, read over Joomla’s license, it is pretty straightforward.
+
+Bir sonraki adım, Joomla'nın lisansını okumaktır. Bu metin oldukça açık bir yazıma sahiptir.
 
 ![alt text](http://i.hizliresim.com/2ZVbzE.png "Joomla Logo")
 
-##Step 6 – Database Information
-The following page is where you will need your database information.
+##Step 6 – Veritabanı Bilgisi
+
+Devam eden sayfada, veritabanı bilgisine ihtiyacınız olacaktır.
 
 ![alt text](http://i.hizliresim.com/L3WLjV.png "Joomla Logo")
 
-Select:
-* The type of database (mysql is the most common)
-* Hostname (the address or path to your database)
-* Username and password (for the database)
-* Database name (you probably chose that when creating the database)
-Note: Depending on your host, you might not have been given a choice to select
-your options for the database creation. In that case, try hostname “localhost” and
-username and password provided by your hosting company.
-If you are installing on a localhost using WAMP or XAMPP, the Username is usually
-“root” and the password is nothing/blank.
-Unless you know what you are doing or have received an error during the
-installation, don’t bother looking at the advanced settings.
-Continue through the configuration. You will be asked to add basic information such
-as email and site name, and be given an option to install “Sample Data”. As I
-explained on the C-panel install, this option will install pages, menus and directories
-with Joomla information.
-If you’d like to see them and change them around as a way of learning how to use
-the site, leave this option. I usually don’t like having all those pages installed on my
-sites, because I have to delete them later.
-If you continue with the prompts, you should now have a “Congratulations” page. 
+Seç:
+* Veritabanının Türü (En yaygını MySQL)
+* Sunucu Adı (Veritabanının adı ya da yolu)
+* Kullanıcı Adı ve Şifre (veritabanı için)
+* Veritabanı Adı (Muhtemelen oluşturduğunuz veritabanının adını seçeceksiniz)
+Not: Bulunduğunuz sunucuya bağlı olarak, veritabanı oluşturulması için size seçeneklerinizi seçmek için bir hak verilmeyebilir. Böyle bir durumla karşılaşıldığında sunucu adı olarak "localhost" , kullanıcı adı ve şifre içinde sunucu şirketiniz tarafından verilen kullanıcı adı ve şifre kullanılmalıdır.
+
+WAMP yada XAMPP kullanarak localhostun kurulumunu yaptıysanız, kullanıcı adı genelde "root" , şifrede nothing/blank olmaktadır.
+Ne yaptığınızı bilmediğiniz ya da kurulum boyunca bir hata almadıysanız, gelişmiş ayarlara bakmanıza gerek yoktur.
+Konfigürasyona devam edin. Sizden e-mail ve site adı gibi basit bilgileri eklemeniz istenecektir ve "Sample Data" kurulumu için bir seçenek sunulacaktır. C-Panel kurulumu üzerinde açıklandığı gibi, bu seçenek sayfaların, menülerin, ve directorylerin Joomla bilgileri ile birlikte kurulumunu gerçekleştirecektir.
+Eğer bunları sitenin kullanımını öğrendiğiniz sırada görmek ve üzerlerinde değişiklikler yapmak istiyorsanız, bu seçeneği seçmeyiniz.
+Devam ettikten sonra, "Congratulations" sayfasına yönlendirileceksiniz.
 
 ![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
 
-All you need to do now to start using your Joomla site is to go back to FTP and
-delete the “Installation” directory. Having this directory still on the site is a major
-security issue.
-You are now ready to start adding content to your website through the Joomla
-interface.
+Joomla sitenizi kullanmaya başlamak için yapmanız gereken şey, FTP'ye dönmek ve "Installation" directroysini silmektir. Bu directroynin site üzerinde kalması büyük bir güvenlik sorunudur.
+
+Şu andan itibaren, Joomla arayüzü aracılığıyla içeriklerinizi web sitenize ekleme işlemlerinize başlamaya hazırsınız.
 
 
 ![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
