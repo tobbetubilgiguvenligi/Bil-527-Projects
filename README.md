@@ -163,23 +163,22 @@ Joomla sitenizi kullanmaya başlamak için yapmanız gereken şey, FTP'ye dönme
 
 ![alt text](http://i.hizliresim.com/R3lq2Z.png "Joomla Logo")
 
-##Configuration Settings
-Once Joomla is installed, it’s time to start adding content and managing your site.
-You will need to log into the administration of the site. The default administration can
-be found at: http://(your site and folder where Joomla is installed)/administrator. You
-will need the username and password you set up during installation to log in and
-access the backend of your site.
+##Konfigürasyon Ayarları
+Joomla kurulumu tamamlandıktan sonra, sitenize içerik eklemeye ve sitenizi yönetmeye başlayabilirsiniz.
+Site yönetimine(admin) giriş yapmanız gerekecektir. Default administration aşağıdaki linkteki gibidir: 
+
+http://(your site and folder where Joomla is installed)/administrator. 
+Sitenizin arka ucuna bağlanabilmek ve erişebilmek için kurulum sırasında şifre ve kullanıcı adı oluşturmanız gereklidir. 
 
 ![alt text](http://i.hizliresim.com/bbdz6b.png "Joomla Logo")
 
-##User Manager
-The user manager allows you to create new users by clicking the “new” button and
-to edit existing users. You can also use this interface to define what permission group
-they belong to, which defines what they can and can’t do on the site. 
-For example, “super administrators” have full control of the site; meanwhile,
-registered users can access parts of the front end of the site that require a log in, but
-not much else.
-##Global Configuration
+##Kullanıcı Yöneticisi
+
+Kullanıcı yöneticisi, "new" butonuna tıklayarak yeni kullanıcılar oluşturmaya ve varolan kullanıcılar üzerinde değişiklik yapabilmenize izin verir. Bu arayüzü aynı zamanda sitenizin üzerindeki kullanıcıların erişimlerini gruplandırmak ve düzenleme yapmak için de kullanabilirsiniz. 
+Örneğin; "super administrator" sitenin tamamı üzerinde kontrole sahiptir; kayıtlı kullanıcılar ise, siteye giriş yaparak sitenin ön ucunda etkinliğe sahiptirler.
+
+##Global Konfigürasyon
+
 There are three tags under Global Configuration, and your choices here affect the
 whole site. They are:
 ###Site
