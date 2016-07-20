@@ -48,37 +48,18 @@ Temel olarak, ikiside işlevsel ve başarılı iki İçerik Yönetim Sistemi olu
 
 ![alt text](http://i.hizliresim.com/kvyyyW.jpg "Joomla Logo")
 
-#Installing Joomla
+#Joomla Kurulumu
 
 ##Temel İhtiyaçlar
 
-Joomla'nın kurulumu için iki farklı yol bulunmaktadır. Manually and using an installation software
-such as Fantastico or C-panel, which are installed in the host’s server and offer an
-user friendly interface for the management of the site and the installation of
-software, but the requirements for both are very similar.
-Since Joomla is a database driven system, it requires a SQL database to run. That’s
-where it will install its tables and store information you add to it. Joomla also does
-better on a relatively fast server, so if you have been on the same server for longer
-than you can remember, contact your host and check if it’s been upgraded and if
-that’s not the case, ask to be moved to a newer server.
-Joomla uses a lot of resources and your site will load faster if the server can handle
-many processes at once. There is also a chance that the technology on older
-servers won’t support Joomla’s newest versions. You can view a list of the most
-current requirements at: http://help.joomla.org/content/view/1938/302/
-If you are using Fantastico or C-Panel, check the version of the installer. You want
-the newest version of Joomla if possible, and at the very least one version behind.
-New versions usually carry security upgrades as well as bug fixes, and when dealing
-with a dynamic site, those fixes can make a big difference.
-To determine Joomla’s latest version, visit the Joomla website.
+Joomla'nın kurulumu için iki farklı yol bulunmaktadır. Manuel olarak ve Fantastico ya da C-panel gibi sunucu serverı üzerinde kurulum yapan kurulum yazılımları gerekir. İki yazılım da site yönetimi için kullanıcı dostu arayüze sahip olan kurulum yazılımları olup, gereksinimleri de oldukça benzerdir. 
+Joomla bir veritabanı üzerinde çalışır bir sistem olmasından dolayı, çalışması için bir SQL veritabanı gerekir.Kurulumu yapılan tablolar ve eklediğiniz bilgilerin saklandığı yer SQL veritabanıdır. Joomla göreceli olarak daha hızlı serverlarda daha iyi bir çalışma performansı sergilemektedir. Sunucu ile iletişime geçip daha hızlı bir server bulduğu zaman sistemini onun üzerine taşımakta ve çalışmasını daha verimli bir hale getirmektedir.
+Joomla çok fazla sayıda kaynak kullanır ve eğer server bir çok süreçi aynı anda çözümleyebilirse, web sitenizde yaptığınız değişiklikler vs. daha hızlı bir şekilde yüklenir. Eski serverlar üzerinde bulunan teknoloji Joomla'nın en yeni versiyonunu destekleyemeyecektir. http://help.joomla.org/content/view/1938/302/ web sitesinden en güncel gereksinimlerin listesine göz atabilirsiniz.
+Eğer Fantastico ya da C-Panel kullanıyorsanız, kurulum versiyonunu kontrol edin. Eğer mümkünse, Joomla'nın en güncel versiyonunu, en kötü bir önceki versiyonunu kullanmayı isteyin. Yeni versiyonlar genelde bugları çözümleyen güvenlik düzenlemeleri içermektedir. Dinamik bir web site ile uğraştığınızda, bu düzenlemeler büyük bir fark yaratmaktadır. Joomla'nın en güncel versiyonunu görmek için, Joomla'nın web sitesini ziyaret ediniz.
 
-Installation with C-Panel
+##C-Panel ile Kurulum
 
-So you have checked all the requirements, what now? Well, if you have C-Panel
-installed on your server, you have your work cut out for you.
-Go to C-Panel, look for Fantastico and look under the Content Management
-section. Check the version of Joomla they have available. You want the 1.5 version
-at least. If it is a recent version, click “New Installation” (some versions of Fantastico
-also give you an option to upgrade your installation if you already have one).
+Bütün gereksinimleri kontrol ettiniz ve tamamladınız, sırada şimdi ne var?  Serverınız üzerinde C-Panel kurulumu varsa, doğru yoldasınız demektir. C-Panel'den İçerik Yönetimi Sistemi bölümünden Fantastico'ya bakın. Joomla'nın versiyonunu kontrol edin. En az 1.5 versiyon kullanmalısınız. Eğer daha güncel bir versiyon varsa, Yeni Kurulum'a tıklayın ve kullanmakta olduğunuz versiyonu güncelleyin.
 
 ![alt text](http://i.hizliresim.com/r9obmz.png "Joomla Logo")
 
