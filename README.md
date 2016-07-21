@@ -269,14 +269,13 @@ Bir başka buton ise "Read More" butonudur.  Kullanıcıların makale hakkında 
 
 ![alt text](http://i.hizliresim.com/y4r7Qa.png "Joomla Logo")
 
-It will add some code to the article to create the “Read more” button. It is
-particularly useful if you are using a blog display (more on that later) and don’t want
-a list of complete articles to display on the same page.
-You will also notice that there are several advanced parameters you can modify
-such whether you want to display the name of the author or whether you want to
-display the default PDF, print and email icons that usually appear on the upper right
-hand side of Joomla articles.
-##Media Manager
+Makaleler için "Read More" butonu oluştururken bir kod parçası da eklenecektir. Eğer blog görünümünde kullanıyorsanız ve tamamlanmış makalelerin listesinin aynı sayfada gösterilmesini istemiyorsanız sizin için çok kullanışlı olacaktır. 
+
+Yazarın adını ya da default PDF'i görüntülemek istiyorsanız, bu tarz değişiklikleri yapabileceğiniz bir çok gelişmiş parametre bulunmaktadır. 
+
+##Medya Yöneticisi
+
+Medya yöneticisi resimlerinizi düzenlemek, organize etmek için kullandığınız aracınızdır. Medya yöneticisi ile ilgili bilmeniz gereken önemli bir bilgi, dosyaların nereye koyulacağıdır. 
 The media manager is your tool to organizing your images. One important thing to
 know about the media manager is where to put your files. By default, it comes with a
 few images (such as fruit and food). Those images can be accessed from the
