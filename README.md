@@ -221,34 +221,27 @@ Yeni kullanıcı kayıt tipi:
 
 Yeni kullanıcı hesap aktivasyonu (yes, no) - Kullanıcıların aktivasyon mailine cevap verme gerekliliğidir. 
 Medya Klasörüne Yol - Medya yönetim dosyalarının depolandığı yeri değiştirmeye karar verirseniz,  onları başka bir URL'de saklayabilirsiniz. 
+
 Resim Klasörüne Yol - Fotoğraflarınızın saklandığı yeri değiştirmeye karar verirseniz, onları yeni bir URl'de saklayabilirseniz.
-Minimum User Level for Media Manager (author) – Allows you to decide which kinds
-of users can have access to your media manager, which would allow them to
-upload pictures, delete them and move them. Author is the default choice, since
-they might need access to upload images to articles they create.
-Most of the other ones you should only change if you know what they do.
+Medya Yönetimi İçin Minimum Kullanıcı Seviyesi (yazar) Hangi tipteki kullanıcıların medya yönetimine erişim sağlayabileceğini, resim yükleyebilme, silebilme ve başka bir yere taşıyabilme yetkilerine sahip olacağını belirler. Yazar default bir seçimdir, resim yüklemek ve yazı oluşturmak için bu erişime ihtiyaç duyar.
+
 ###Server
-Most options will already be set for you during installation. The options you must
-change are:
-Under mail settings:
-Mail from - the email you want to use when sending messages from your Joomla site
+Bütün opsiyonlar kurulum sırasında sizin için yapılmıştır. Değiştirmek istediğiniz opsiyonlar:
+Mail ayarlarından:
+Mail from - Size ait olan Joomla sitesinden mesaj gönderirken kullanmak istediğiniz mail.
+
 From name:
-The sender name you want the receivers to see on the emails you send using your
-Joomla site.
+Joomla sitenizi kullanırken alıcılara mail gönderdiğinizde onların görmelerini istediğiniz gönderen adı.
 
 ![alt text](http://i.hizliresim.com/PMZLbb.png "Joomla Logo")
 
-##Tools
-Most of the tools under this button can be used for general management
-maintenance of the site and communication among users. You can send private
-messages to users or mass messages to all of them.
-When another user is editing a file, a little padlock prevents others from editing it at
-the same time, and “checks it out” for the time being. The Global Check In basically
-makes everything that was checked out available for editing by checking them in
-again.
-Some mods cache some of the information for speed’s sake. You can clear that
-cache if you need to by using the “Clean Cache Admin” and the “Purge Cache
-Admin”.
+##Araçlar
+Bu butonun altındaki bütün araçlar, sitenin bakımının genel yönetimi ve kullanıcılar arasındaki iletişim içindir. Kullanıcılara özel mesaj veya toplu mesaj gönderebilirsiniz.
+
+Başka bir kullanıcı bir dosyayı değiştirdiği sırada, bir kilit aracılığı ile aynı zaman zarfı içerisinde başka bir kullanıcının aynı dosyayı değiştirmesi engellenir. Global kontrol temel olarak yapılan değişiklikler için herşeyi kontrol eder.
+
+Bazı modlar bazı bilgileri hızdan ödün vermemek adına saklar. "Clean Cache Admin" ve "Purge Cache Admin" kullanarak bu durumu değiştirebilirsiniz.
+
 
 #How To Publish Content
 The Joomla architecture requires that every article belong to a section and a
