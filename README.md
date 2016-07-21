@@ -291,25 +291,11 @@ En kullanışlı özelliklerden birisi, makalelerin tekrardan düzenlenebilme im
 
 Menüler
 
-Now that you have created the
-sections, categories and articles, it is
-time to create the menus for your site.
-You can create several different
-menus and submenus using the “Menu
->Menu Manager”.
-The most common one is the basic
-“Main Menu”, which is created by
-default and can also be found under
-the “Menu” button. There are endless
-choices with the menus. You can link
-them to sections, categories, single
-articles, external sites, components,
-wrappers, and many more.
-The one you will probably be using the
-most is the “Articles” menu. It allows
-you to link to Articles, Categories or
-Sections, and also to configure how
-you want them displayed. 
+Sitenizde olması gereken, bölümler, kategoriler ve makaleleri oluşturduktan sonra sıra sitenizde kullanacağınız menüleri oluşturmaya geldi.Birçok farkı menü ve alt menüleri "Menu Manager" kullanarak oluşturabilirsiniz. 
+
+En yaygın kullanıma sahip "Main Menu", default olarak oluşturulur ve "Menu" butonu altından bulunabilir. Sonsuz sayıda menü seçimleri olduğundan, oluşturulabilecek menülerin sayısı da aynı orandadır.Bu menüleri, bölümlere, kategorilere, tekli makalelere, bileşenlere, sarıcılara ve bir çok şeye bağlantılanabilir. 
+
+Yaygın olarak kullanılan ve sizin de işinize yarayabilecek başka bir seçenekte "Articles" menüsüdür. Bu seçenek size, makalelerin, kategorileri veya bölümleri linklendirmenizi ve görüntülemek istediğiniz bileşenleri konfigüre etmenize yardımcı olur.  
 
 ![alt text](http://i.hizliresim.com/l1g0Jk.png "Joomla Logo")
 
