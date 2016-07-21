@@ -204,27 +204,20 @@ Eğer URL'ye bir ön ek eklemeyi seçerseniz (.html part) ve eğer bir Apache mo
 
 ![alt text](http://i.hizliresim.com/o7RDpR.png "Joomla Logo")
 
-##System
-Under the system settings you will see several options you might want to consider
-modifying, which control whether users can register on your site and what kind of
-privileges they can have. Some of the most important features are:
+##Sistem
+Kullanıcı ayarları altında, sitenize kayıt olmak isteyen kullanıcıları ve sahip olacakları öncelikleri kontrol etmenize yarayan ayarları göreceksiniz. En önemli olanları:
 
 ![alt text](http://i.hizliresim.com/goJ3DN.png "Joomla Logo")
 
-##User settings:
-Allow user registration (yes, no) – Determines whether people are allowed to register
-as site users or not. If you select yes, you can determine what level of access the
-new users will have when they sign up. The options are:
-New user registration type:
-* Registered – Can’t edit or publish any articles. The user is simply a registered
-user of the site with no privileges.
-Author – Can create content and determine where it should go and some
-minor settings relating to their individual articles.
-* Editor – Has the same ability as the above users, but they can also edit articles
-by other users.
-* Publisher – Can do all of the above, plus the ability to choose whether an
-article will be published or not.
-(Detailed information can be found at: http://docs.joomla.org/)
+##Kullanıcı ayarları:
+Kullanıcı kaydına izin verme (yes,no) Siteye kayıt olmak isteyen kullanıcılara verilecek izini belirler. Bu opsiyonu "yes" seçerseniz, siteye kayıt olan yeni kullanıcıların site üzerinde ne seviyede erişime izni olduğunu belirleyebilirsiniz. Bu opsiyonlar:
+
+Yeni kullanıcı kayıt tipi:
+* Kayıtlı - Herhangi bir yazı düzenleyemez veya yayınlayamaz. Bu tipteki kullanıcı basitçe siteye kayıtlı ve bir ayrıcalığı olmayan konumdadır. 
+* Yazar - İçerik oluşturabilir, bu içeriklerin nerede konumlanacağını belirleyebilir ve kendi yazılarıyla ilgili belirli ayarlamalar yapabilir.
+* Editör – Kayıtlı ve Yazar tipindeki özelliklere sahip olup extra olarak, başka kullanıcılar tarafından yayınlanmış yazılar üzerinde değişiklik yapabilir.
+* Yayıncı - Yukarıdaki 3 tipin özelliklerine ek olarak, hangi yazının yayınlanıp yayınlanmayacağı seçimini yapabilir.
+(Detaylı bilgilendirme için at: http://docs.joomla.org/)
 
 New User account activation (yes, no) - Determines whether the site requires that
 they respond to an activation email.
