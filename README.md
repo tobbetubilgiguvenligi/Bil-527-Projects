@@ -243,12 +243,9 @@ Başka bir kullanıcı bir dosyayı değiştirdiği sırada, bir kilit aracılı
 Bazı modlar bazı bilgileri hızdan ödün vermemek adına saklar. "Clean Cache Admin" ve "Purge Cache Admin" kullanarak bu durumu değiştirebilirsiniz.
 
 
-#How To Publish Content
-The Joomla architecture requires that every article belong to a section and a
-category (unless you make it unspecified). Because of that, before you start
-creating the sections and categories, you need to think of the names that you might
-need. Think of a section as being a like a drawer in a filing cabinet, a category is the
-folder inside and articles as the documents inside the folder.
+#İçerik Nasıl Yayınlanır?
+Joomla mimarisi bir bölge ve kategoriye ait olan bütün yazılara ihtiyaç duyar. Bu sebepten dolayı, bölümleri ve kategorileri yaratmadan önce, ihtiyacınız olan isimleri düşünmeniz gerekir. Bölgeyi, dolu bir dolaptaki çekmece olarak düşünebilirsiniz. Kategori ise klasörün içindeki ve klasör içindeki dökümanlar gibidir. 
+
 Another good rule of thumb is to think of the sections and categories as one thinks of
 the menus and pull down menus. Let’s say you want to have a button called “About
 my company”, and when someone puts the mouse over that button, a pull down
