@@ -275,7 +275,9 @@ Yazarın adını ya da default PDF'i görüntülemek istiyorsanız, bu tarz değ
 
 ##Medya Yöneticisi
 
-Medya yöneticisi resimlerinizi düzenlemek, organize etmek için kullandığınız aracınızdır. Medya yöneticisi ile ilgili bilmeniz gereken önemli bir bilgi, dosyaların nereye koyulacağıdır. 
+Medya yöneticisi resimlerinizi düzenlemek, organize etmek için kullandığınız aracınızdır. Medya yöneticisi ile ilgili bilmeniz gereken önemli bir bilgi, dosyaların nereye koyulacağıdır. Default olarak, birkaç görüntü gelir (örneğin, meyve ve yemek). Bu görüntüler eklendikleri makale arayüzünden erişilebilir. Yalnızca "Stories" klasörünün içinde bulundan klasör ve resimler bu yol kullanılarak erişilebilir. 
+
+
 The media manager is your tool to organizing your images. One important thing to
 know about the media manager is where to put your files. By default, it comes with a
 few images (such as fruit and food). Those images can be accessed from the
