@@ -281,22 +281,16 @@ Diğer resimlere de link verebilirsiniz ama öncelikle bu resimlrin adreslerini 
 
 Medya Yöneticisi ile ilgili bilmeniz gereken bir diğer bilgi; Medya Yöneticisi resimleri yeniden boyutlandırmaz, bu sebepten dolayı, çok büyük resimler yüklerseniz, bu resimler sitenizi bozacaktır. Daha sonrasında bu durumu kodlar üzerinden yapacağınız değişiklikler ile çözümlemeye çalışsanız bile, resimlerin yüklenmesinin uzunluğundan dolayı siteniz yavaşlayacaktır.  Yeniden boyutlandırmak ve sıkıştırmak itediğiniz resimleri Medya Yöneticisi'ne yüklemeden önce bilgisayarınızdaki resim yazılımı ile hazırlayın.
 
-##Front Page Manager
-The Front Page Manager is the manager that let’ you choose the order and
-particular features of the articles you have selected to appear on the home page
-(Front page) of your site. It can be reached from the “Content” menu. It’s the place
-where you can manage the options for the articles you chose to have on the front
-page of your site.
-One of the most useful features is the possibility of re-ordering them (which is a
-feature also available in sections, categories and articles). To do that, go to the front
-page manager, and look at the list of articles listed there. You will see a column
-called “order”. Change the numbers around to the order in which you would like
-them to appear on the page, then click the little save icon on that column, right
-next to the “order” title. 
+##Ön Sayfa Yöneticisi
+
+Ön Sayfa Yöneticisi, sitenizin anasayfasında görünmesi için seçtiğiniz makalelerin belirli özelliklerini ve düzenini sağlayan yöneticidir. Bu yöneticiye "Content" menüsünden ulaşılabilir. Sitenin ana sayfasında görünecek makaleler ile ilgili opsiyonları yöneteceğiniz yer burasıdır.
+
+En kullanışlı özelliklerden birisi, makalelerin tekrardan düzenlenebilme imkanıdır (Bu özellik ayrıca, bölümler, kategoriler ve makaleler için uygulanabilir). Bunu yapabilmek için, ön sayfa yöneticisine gidip, listelenmiş makalelerin listesine bakılır."Order" isimli bir sütun göreceksiniz.Buradan ön sayfada görünmesini istediğiniz makaleler, kategori ve bölümlerin numaraları üzerinde değişiklik yaparak onların ön sayfada görünmesini veya sıralamasında değişiklikler yapabilirsiniz. 
 
 ![alt text](http://i.hizliresim.com/o7MYDo.png "Joomla Logo")
 
-Menus
+Menüler
+
 Now that you have created the
 sections, categories and articles, it is
 time to create the menus for your site.
