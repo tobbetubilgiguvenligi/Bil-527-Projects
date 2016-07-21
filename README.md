@@ -219,12 +219,9 @@ Yeni kullanıcı kayıt tipi:
 * Yayıncı - Yukarıdaki 3 tipin özelliklerine ek olarak, hangi yazının yayınlanıp yayınlanmayacağı seçimini yapabilir.
 (Detaylı bilgilendirme için at: http://docs.joomla.org/)
 
-New User account activation (yes, no) - Determines whether the site requires that
-they respond to an activation email.
-Path to media folder - if you decide to change where the media manager files are
-stored you can put the new URL here.
-Path to image folder - if you decide to change where your photos are stored you
-can put the new URL here.
+Yeni kullanıcı hesap aktivasyonu (yes, no) - Kullanıcıların aktivasyon mailine cevap verme gerekliliğidir. 
+Medya Klasörüne Yol - Medya yönetim dosyalarının depolandığı yeri değiştirmeye karar verirseniz,  onları başka bir URL'de saklayabilirsiniz. 
+Resim Klasörüne Yol - Fotoğraflarınızın saklandığı yeri değiştirmeye karar verirseniz, onları yeni bir URl'de saklayabilirseniz.
 Minimum User Level for Media Manager (author) – Allows you to decide which kinds
 of users can have access to your media manager, which would allow them to
 upload pictures, delete them and move them. Author is the default choice, since
