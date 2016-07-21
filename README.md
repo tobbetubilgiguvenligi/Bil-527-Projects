@@ -277,21 +277,10 @@ Yazarın adını ya da default PDF'i görüntülemek istiyorsanız, bu tarz değ
 
 Medya yöneticisi resimlerinizi düzenlemek, organize etmek için kullandığınız aracınızdır. Medya yöneticisi ile ilgili bilmeniz gereken önemli bir bilgi, dosyaların nereye koyulacağıdır. Default olarak, birkaç görüntü gelir (örneğin, meyve ve yemek). Bu görüntüler eklendikleri makale arayüzünden erişilebilir. Yalnızca "Stories" klasörünün içinde bulundan klasör ve resimler bu yol kullanılarak erişilebilir. 
 
+Diğer resimlere de link verebilirsiniz ama öncelikle bu resimlrin adreslerini ve tiplerini bulmanız gerekir. Bu konuda verilen en akılcı öneri, bütün resimlerin "Stories" klasörü altında toplanmasıdır.  
 
-The media manager is your tool to organizing your images. One important thing to
-know about the media manager is where to put your files. By default, it comes with a
-few images (such as fruit and food). Those images can be accessed from the
-articles interface to be added to the articles, but only the folders and images
-placed inside the “Stories” folder can be accessed that way.
-You can still link to the other images, but you must find their address by hand and
-type it in, so for ease of use, I suggest you place all of the images you will be placing
-on the pages of your site in organized folders inside the “Stories” folder.
-Another thing to know is that the Media Manager does not re-size images, so if you
-are uploading huge images, they will distort your website once you place them on
-the website, and even if you change the image size by hand on the code within
-Joomla, those images will still take a long time to load and significantly slow your site
-down. So re-size and compress them with image software in your computer before
-uploading them to the Media Manager.
+Medya Yöneticisi ile ilgili bilmeniz gereken bir diğer bilgi; Medya Yöneticisi resimleri yeniden boyutlandırmaz, bu sebepten dolayı, çok büyük resimler yüklerseniz, bu resimler sitenizi bozacaktır. Daha sonrasında bu durumu kodlar üzerinden yapacağınız değişiklikler ile çözümlemeye çalışsanız bile, resimlerin yüklenmesinin uzunluğundan dolayı siteniz yavaşlayacaktır.  Yeniden boyutlandırmak ve sıkıştırmak itediğiniz resimleri Medya Yöneticisi'ne yüklemeden önce bilgisayarınızdaki resim yazılımı ile hazırlayın.
+
 ##Front Page Manager
 The Front Page Manager is the manager that let’ you choose the order and
 particular features of the articles you have selected to appear on the home page
