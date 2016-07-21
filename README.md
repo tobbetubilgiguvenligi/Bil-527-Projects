@@ -299,26 +299,19 @@ Yaygın olarak kullanılan ve sizin de işinize yarayabilecek başka bir seçene
 
 ![alt text](http://i.hizliresim.com/l1g0Jk.png "Joomla Logo")
 
-For example, I want to create a menu link that will point to a category in my site
-called “Sports”. I also want all my articles to appear in a blog format, with the
-beginning of the articles, followed by a “read more” button and displayed in 2
-columns. From the new menu options I select “Articles>Category Blog Layout”.
-Once you get comfortable with using Joomla and start expanding your site with
-components, you will get more menu types to choose from.
+Örneğin, web sitemdeki "Sports" kategorisine ilişkilendirmek istediğim bir menü oluşturmak istiyorum. Aynı zamanda bütün makalelerimin blog formatında görünmesini, makalelerin başlangıçlarını, sonrasında her biri için "Read More" butonu ve 2 sütunda görüntülemek istiyorum. Yeni menü opsiyonundan "Articles>Category Blog Layout" seçilir. Daha sonrasında, Joomla kullanılarak istenilen formatta tasarım elde edilmiş olunur ve bileşenler kullanılarak sitenin içeriği genişletilmeye başlanır.
 
-##How to Design and Customize Your Site
 
+##Siteniz Nasıl Tasarlanır ve Özelleştirilir?
+
+Bookmark, mail listelerine bağlı modüller, takvimler, fotoğraf albümleri ve sonsuz miktarda başka özellikler Joomla sitenize eklenebilmektedir.
+
+Bu durumun en büyük avantajlarından biri, dinamik bir web sitesine sahip olunmasıdır. Sitenizde bir çok değişiklik yapabilir, özellikler ekleyebilir ancak Joomla için nasıl script yazılır öğrenmek istemiyorsanız, 5000'in üzerinde eklenti, modül, şablon ve bileşenleri http://extensions.joomla.org/ sitesinden indirebilirsiniz.Bu sitedeki bileşenlerin çok yüksek bir yüzdesi ücretsizdir.Bu bileşenleri indirdikten sonra, olağan olmayan komutların kontrolü için belirli komutlar check edilmelidir. 
 There are many features such as social bookmarks, modules connecting to mailing
 lists, calendars, photo albums, and an endless amount of other features that can be
 added to your Joomla site.
-They are actually one of the main advantages of having a dynamic site. You can
-script in many changes and features into your site, but if you have no intentions of
-learning how to script for Joomla, there are already over 5000 plugins, modules,
-templates and components available for download from
-http://extensions.joomla.org/, a huge percentage of which will be absolutely free.
-After you have downloaded them, check the particular instructions to see if there
-are any instructions out of the ordinary. If there aren’t you can get them to your site
-by following the instructions below.
+
+
 To install any of the features described below, all you do is go to the “Extensions”
 button and select “Install/Uninstall”. You will be taken to a page that allows you to
 search for the file on your computer or upload the file from a URL. That file is usually a
