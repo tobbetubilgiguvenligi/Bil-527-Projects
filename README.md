@@ -250,39 +250,22 @@ Başka bir kural da, bölümler ve kategoriler, menüler ve pull down menüler g
 
 Bölüm ve kategori oluşturmak iyi bir prensiptir. "About my company" bir bölüm, "Staff" ve "Locations" ise bu bölümün kategorileridir. "Staff" kategorisi altında, her bir çalışan için bir sayfa oluşturmak ve "Locations" altında ise,  bütün farklı lokasyonlar için harita, iletişim ve bilgilendirmeye sahip birer sayfa oluşturmak sitenizin daha organize bir yapıda olmasını sağlar. Menüleri oluşturmaya hazır olduğunuzda, sitenizi bu yolla detaylandırabilirsiniz.
 
-##Sections
-So to create a section, simply go to the “Content” menu button and select
-“Sections”. Once on the page, click the “New” button. You will be taken to a page
-with several options. The only one you really need is the Title, and a Description if you
-want to link a menu button to that section at some point, otherwise, just the title
-would be enough.
-##Categories
-From the content menu, you can also
-get to categories. Since they are subcategories
-of sections, they work in a
-similar way, and you should also add a
-Title, but this time you must also select
-a section for the category. All the
-other fields are optional and not
-necessary for the functioning of the
-site. 
-##Articles
-Now that you have your sections and categories created, we can start adding
-some real content to the site. To create an article, go to “Content”, articles and
-click “New”.
-You will be taken to a page that looks a little like Microsoft Word, but without as
-many features. It is what we call a WYSIWYG (What You See Is What You Get)
-interface. What that means is that whatever you do on this page will be translated
-by the software into HTML which can be read by web browsers as a webpage.
-Start by adding the title. The alias is not necessary. You must then select a section
-and the category (which is why you had to create them first). You can then add the
-text and images in either view, the standard WYSIWYG viewer or directly to the HMTL
-(by clicking the little HTML icon). You can also add SEO (Search Engine Optimization)
-information by clicking on the Meta Tags option on the right hand side.
-One other button worth mentioning is the “Read more” button. You would use this
-button if you want people to read a short preview of the article and have to click on
-the read more link on the article to read the whole thing. Basically, just select where
-you want the preview to end, click on it and then click on the “Read more” button. 
+##Bölümler
+Bir bölüm oluşturmak için, basitçe "Content" menü butonuna gidip, "Sections" ı seçiniz. Daha sonra sayfa üzerindeki "New" butonuna tıklayınız. Birkaç opsiyonla birlikte bir sayfa alacaksınız. Gerçekten ihtiyacınız olan şeyler, eğer bir menü butonu ile bir bölümü birbirine bağlamak istiyorsanız Başlık ve Tanım olacaktır. Aksi takdirde, sadece tanım yeterlidir.
+
+##Kategoriler
+"Content" menüsünden, kategorilere de erişebilirsiniz. Kategoriler, bölümlerin alt kategorisi olarak benzer bir yol ile çalışır; kategoriniz için bir başlık eklemeniz gerekir. Bu sırada kategorinizin içinde bulunacağı bölümü de belirlemeniz gerekmektedir. Sitenizin fonksiyonelliğine göre, diğer bütün alanlar opsiyonel veya gerekli değildir.
+
+##Makaleler
+
+Şuandan itibaren bölümlerinizi ve kategorilerinizi yarattıktan sonra, site için gerçek içerikler eklemeye başlayabiliriz. Makale oluşturmak için, "Content" e giderek, "Articles" ı seçip "New" butonuna tıklamamız gereklidir.
+
+Karşınıza Microsof Word'e benzeyen ama bir çok özelliğine sahip olmayan bir sayfa çıkacaktır. Bu arayüze WYSIWYG (What You See Is What You Get) denilmektedir. Yani, bu sayfa üzerinde yaptığınız herşey, yazılım tarafından HTML formunda dönüştürülecek ve web tarayıcıları tarafından bir web sayfası gibi okunabilecektir. 
+
+Bir başlık ekleyerek başlayın. Daha sonra bir bölüm ve kategori seçmelisiniz. Sonrasında, metin yada görüntüler, WYSIWYG arayüzü aracılığı ile HTML formatına çevrilerek eklenir. Ayrıca, Meta Tags opsiyonuna tıklayarak SEO (Search Engine Optimization) bilgileri de ekleyebilirsiniz. 
+
+Bir başka buton ise "Read More" butonudur.  Kullanıcıların makale hakkında genel bir önizleme okumasını istiyorsanız bu butonu da ekleyebilirsiniz. Temel olarak, önizlemenin nerede bitmesi gerektiğini seçip, üstüne tıklayıp sonrasında da "Read More" butonuna tıklamaktır.
+
 
 ![alt text](http://i.hizliresim.com/y4r7Qa.png "Joomla Logo")
 
