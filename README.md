@@ -129,7 +129,7 @@ En temel izin ayarları:
 
 Public olmayan bütün dosyalar için mümkün oldukça ve kurulum ile Joomla kullanımını etkilemediği sürece en güvenilir ayar kullanılmalıdır.
 
-##Step 5 – License
+##Step 5 – Lisans 
 
 Bir sonraki adım, Joomla'nın lisansını okumaktır. Bu metin oldukça açık bir yazıma sahiptir.
 
@@ -179,39 +179,28 @@ Kullanıcı yöneticisi, "new" butonuna tıklayarak yeni kullanıcılar oluştur
 
 ##Global Konfigürasyon
 
-There are three tags under Global Configuration, and your choices here affect the
-whole site. They are:
+Global Konfigürasyon başlığı altında 3 etiket bulunmaktadır ve burdaki tercihler bütün siteyi etkilemektedir.
 ###Site
-You can take the site offline (so no one can see it while you work on it). It will say the
-site is down for maintenance.
+Sitede çevrimdişi olarak işlem yapabilirsiniz, bu işlem sırasında kimse sizin site üzerinde çalıştığınızı göremez.Kullanıcılar bu sırada sitenin bakımda olduğunu görecektir.
 
 ![alt text](http://i.hizliresim.com/kvyNMq.png "Joomla Logo")
 
-You also have an option to change the site name and to choose a default
-WYSIWYG editor (Watch You See Is What You Get), which is the interface for you to
-create your articles, make fonts, bold, create tables, etc. The default is TinyMCE. You
-can install others if you like. Joomla has a large selection of extensions available for
-download, but more on that later.
-List length determines how long the lists of articles on the backend of your site will be
-by default, before Joomla displays a "next page". 
-Feed length and feed email determine the length and email for the RSS feed on
-your site.
-Global Site Meta Description and keywords is the description that Google and other
-search engines will pick up as being the general site description and keywords.
-##SEO settings
-Search Engine friendly URLs will modify the address of your pages from something
-that looks like this:
+Sitenin adını değiştirmek ve size yazılarınızı oluşturmak için, fontlarınızı ayarlamak için, tablolarınızı oluşturmak gibi işlemler için default bir WYSIWYG editör seçme opsiyonunu bulunmaktadır. Default olan TinyMCE'dir.  
+
+Liste uzunlukları sitenizin arka ucundaki default olarak olan yazıların listelerini Joomla bir sonraki sayfaya geçmeden önce belirler. 
+Global Site Meta Tanımı ve anahtar kelimeler Google ve diğer arama motorlarının genel site tanımları ve anahtar kelimeleri için alacağı tanımlardır. 
+
+##SEO ayarları
+Arama Motoru kullanıcı dostu URL'leri aşağıdaki gibi görünen sayfalarınızın adresini değiştirecektir.
+
 http://yoursite.com/index.php?option=com_mtree&task=listcats&cat_id=1922&Itemi
 d=35
-to something that looks like this:
+
+
 http://yoursite.com/about-us/contact
-or
+yada
 http://yoursite.com/index.php/about-us/contact.html
-If you choose to add a suffix to the URL (that’s the .html part)
-That will only work in some hosts if you use an Apache mod_rewrite, hence that
-option. The best way to find out is just to try without it, and if you have problems,
-change that option to yes.
-You can even have it so there is no index.php in the URL.
+Eğer URL'ye bir ön ek eklemeyi seçerseniz (.html part) ve eğer bir Apache mod_rewrite kullanırsanız sadece bazı sunular içinde çalışacaktır. Eğer problemleriniz olursa, opsiyonu "yes" olarak değiştiriniz. 
 
 ![alt text](http://i.hizliresim.com/o7RDpR.png "Joomla Logo")
 
