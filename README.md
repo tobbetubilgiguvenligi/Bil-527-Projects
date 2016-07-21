@@ -246,17 +246,10 @@ Bazı modlar bazı bilgileri hızdan ödün vermemek adına saklar. "Clean Cache
 #İçerik Nasıl Yayınlanır?
 Joomla mimarisi bir bölge ve kategoriye ait olan bütün yazılara ihtiyaç duyar. Bu sebepten dolayı, bölümleri ve kategorileri yaratmadan önce, ihtiyacınız olan isimleri düşünmeniz gerekir. Bölgeyi, dolu bir dolaptaki çekmece olarak düşünebilirsiniz. Kategori ise klasörün içindeki ve klasör içindeki dökümanlar gibidir. 
 
-Another good rule of thumb is to think of the sections and categories as one thinks of
-the menus and pull down menus. Let’s say you want to have a button called “About
-my company”, and when someone puts the mouse over that button, a pull down
-menu with the options “Staff” and “Locations” appears.
-That is a good guideline to creating your sections and categories. Make “about my
-company” a section and “Staff” and “Locations” the categories. They you can
-create one page for each person in the staff and place it inside the “Staff”
-Category and all different locations your business has on their own page with map,
-contact and information, and place each of those pages inside the “Locations”
-category. That way you can keep your site organized for when you are ready to
-create the menus.
+Başka bir kural da, bölümler ve kategoriler, menüler ve pull down menüler gibidir. Örneğin, sitenizde "About my company" butonu olmasını istiyorsunuz. Birisi mouse ile bu butona tıkladığında, bir pull down menu ile "Staff" ve "Locations" çıkması, bölüm ve kategori durumuna örnektir.
+
+Bölüm ve kategori oluşturmak iyi bir prensiptir. "About my company" bir bölüm, "Staff" ve "Locations" ise bu bölümün kategorileridir. "Staff" kategorisi altında, her bir çalışan için bir sayfa oluşturmak ve "Locations" altında ise,  bütün farklı lokasyonlar için harita, iletişim ve bilgilendirmeye sahip birer sayfa oluşturmak sitenizin daha organize bir yapıda olmasını sağlar. Menüleri oluşturmaya hazır olduğunuzda, sitenizi bu yolla detaylandırabilirsiniz.
+
 ##Sections
 So to create a section, simply go to the “Content” menu button and select
 “Sections”. Once on the page, click the “New” button. You will be taken to a page
