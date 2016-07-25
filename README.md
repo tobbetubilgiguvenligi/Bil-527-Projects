@@ -428,6 +428,37 @@ BrowserMatchNoCase direktifleri de kullanabilirsiniz.
 
 ![alt text](http://i.hizliresim.com/6nd8qk.png "Joomla Logo")
 
+###5.Bağlantıları Güvenceye Almak
+
+Joomla web sitenize bağlandığınız sırada, kullandığız bağlantıların güvenilirliğini garantiye almanız gerekmektedir.Eğer web sunucunuz destekliyorsa, SFTP encryption'ı kullanabilirsiniz.Eğer desteklemiyorsa SSH kullanmanız tavsiye edilmektedir.Bir FTP client'ı kullanıyorsanız, SFTP için olan default port genellikle 22'dir.
+
+![alt text](http://i.hizliresim.com/VYm63n.png "Joomla Logo")
+
+Not: Bazı FTP client'ları şifreleri bilgisayar üzerinde şifrelenmiş bir şekilde depolar.Şifrelenmiş şifreler, kullanılacağı zamanlarda tekrar orijinal haline çevrilebilmektedir.Ancak FTP client'ları içinde şifre saklanması yöntemi önerilmemektedir.
+
+Başka önemli bir konu da, firewall kurallarının home router üzerinde düzgün bir şekilde çalıştığından emin olun.Dışarıda internete bağlandığınız public yerler, internet kafe veya Starbucks gibi, güvenilir networkler değildir.
+
+Web sitenizin oturduğu yerdeki web sunucunuz de aynı zamanda güvenilir hostinglerle çalışmalıdır.Joomla her zaman güncel ve desteklenmiş PHP, MySQL, account isolation, Web Application Firewall vb. versiyonları ile çalışmalıdır.Aşırı kalabalık ve kaynak paylaşımlı serverlarda dikkatli olunmalıdır.
+
+###6.Dosya İzinleri
+
+Joomla web sitenizi korumak istiyorsanız, doğru dosya izinlerinin verildiğinden emin olmanız gerekmektedir.Her directory ve dosya, kullanıcılara okuma, yazma ve değişiklik yapma ile ilgili farklı izinler sağlamaktadır.Eğer izinleriniz yeterince sıkı değilse, davetsiz misafirler için bir kapı açabilir, fazla sıkıysa da, kurulumunuzu bozabilir ve belirli directorylere yazmanız gerekmektedir.
+
+Joomla'nın güvenlik izinleri ile ilgili güzel bir dökümantasyonu bulunmaktadır:
+
+* How do UNIX file permissions work?
+* How do Windows file permissions work?
+* How do phpSuExec file permissions work?
+
+Joomla kurulum sırasında, aşağıdaki konfigürasyonları önermektedir:
+
+* PHP files: 644
+* Config files: 644
+* Other folders: 755
+
+Bu önerilere rağmen, kurulum sırasında daha kısıtlayıcı izinler tanımlamanız daha önerilen ve güvenilir bir yol olacaktır.
+
+
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
