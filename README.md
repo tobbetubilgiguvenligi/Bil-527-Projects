@@ -420,7 +420,13 @@ Bu tarz eklentiler ek olarak:
 
 ###4.Bad Bots Bloklama
 
-Joomla sitenizin bant genişliğini çalmak isteyen birçok bad bots, scrappers ve crawlers bulunmaktadır. 
+Joomla sitenizin bant genişliğini çalmak isteyen birçok bad bots, scrappers ve crawlers bulunmaktadır.En kapsamlı listeye botreports.com sitesinden ulaşabilirsiniz.Çok sayıda güvenlik eklentisi bad bots bloklamada çok iyi iş çıkartırken, bazen server seviyesinde müdahalelere ihtiyacınız olmaktadır.Çoklu User-Agent bloklamak istiyorsanız, .htaccess file'a bunu eklemeniz gerekmektedir.
+
+![alt text](http://i.hizliresim.com/mLm512.png "Joomla Logo")
+
+BrowserMatchNoCase direktifleri de kullanabilirsiniz.
+
+![alt text](http://i.hizliresim.com/6nd8qk.png "Joomla Logo")
 
 
 ##Joomla Community and Support
