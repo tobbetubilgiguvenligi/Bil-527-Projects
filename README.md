@@ -472,6 +472,18 @@ Joomla'nızı admin giriş alanında şifre koruma işlemi ile daha da fazla sı
 
 Bu işlemi manuel olarak .htaccess dosyayı üzerinde de yapabilirsiniz.
 
+###8.Enable Search Engine Friendly URLs
+
+Dosya isimlerinin görülen URL yapısından saklanması (index.php) önerilen sıkılaştırma yöntemlerindendir.Bu sayede bilgilerinizi maskeler, hackerların site içindeki zaafiyetleri bulmasını engellersiniz.
+
+“System” → “Global Configuration” 'e tıklayın. Daha sonra “Search Engine Friendly URLs” ve “Use URL Rewriting” seçeneklerinin ikisine de olanak sağlayın.
+
+![alt text](http://i.hizliresim.com/81A2Yr.png "Joomla Logo")
+
+* Apache kullanıcıları, bu aktivasyonu yapmadan önce, htaccess.txt'yi .htaccess şeklinde yeniden adlandırmalıdır.
+* IIS 7 kullanıcıları ise, bu aktivasyonu yapmadan önce, web.config.txt'yi web.config olarak yeniden adlandırmalı ve IIS URL ReWrite Module'ün kurulumunu yapmalıdır.
+
+###9.SSL Sertifikası
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
