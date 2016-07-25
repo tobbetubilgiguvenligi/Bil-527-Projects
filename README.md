@@ -363,6 +363,34 @@ Bu şablonları yüklemek genelde daha basit olduğundan, şablonların bu yolla
 Yükledikten sonra; "Extensions >Template Manager" yeni bir şablonun olduğunu görebilirsiniz. Şablonu seçerek "Default" a tıklarsanız, bu şablonun sitede default olarak tasarlanmış yerinde duracak şekilde konumlanan yeni bir şablonu sitenizde görmüş olursunuz.
 Şablonlarla ile ilgili bir problem de, insanlar internet siteleri üzerinde gördükleri şablonların resimleri üzerinden yola çıkarak onları indirip, sitelerinde denemekte ve gördükleri resimle aynı sonucu alamamaktadır.Bunun sebebi o şablon üzerinde bir çok düzenleme yapılması gereklidir.
 
+##Joomla Sıkılaştırma
+
+Joomla, açık kaynaklı bir içerik yönetim sistemidir ve bir MVC framework üzerine tasarlanmıştır.Güncel olarak en çok kullanılan içerik yönetim sistemleri arasında internet üzerinde %2.6'lık bir kullanımla, 2. sırayı almıştır.Bu rakam çok fazla bir büyüklüğü işaret etmiyor gibi görünse de, günümüzde milyonlarca işletme ve blog sitesinin dizaynını ve oluşturulmasını Joomla ile gerçekleştirmektedir.Yoğun olarak kullanılan sistemlerde, sürekli saldırı yada hacklenme halinde bulunma riskinden dolayı  extra koruma önlemleri alınmaktadır.Brute-force saldırılara karşı Joomla'nızı sıkılaştırmak için sıkılaştırma adımlarını uygulamanız gerekmektedir.
+  
+###Joomla Güvenliği
+
+####1.Joomla ve Eklentilerini Güncel Tutun
+
+Joomla'nız ve eklentilerini her zaman güncel versiyonlarıyla tutmalısınız. Yazılımcılar, eski versiyonlarda oluşabilecek yada oluşmuş olan zaafiyetleri gözlemleyip bunların çözümlendiği ve diskarte edildiği yeni versiyonları sunmaktadır. Hackerlar, genelde eski versiyonlara saldırı düzenlemektedirler.Örneğin 2015 Ekimde "SQL Injection Vulnerability" bulundu.Ve bu zaafiyet milyonlarca insanı etkiledi.joomla.org adresinden her zaman Joomla'nın en güncel versiyonlarını indirebilirsiniz.
+
+Eğer Joomla için yeni bir güncelleme mevcutsa, yönetim panosu tarafından gösterilmektedir.Ayrıca Akeeba CMS Update gibi ücretsiz ve Joomla güncellemeleri ve backuplarını yapmanızı sağlayan eklentiler de kullanabilirsiniz.
+
+![alt text](http://i.hizliresim.com/4lXg5A.png "Joomla Logo")
+
+Güncellemeleri kontrol etmek yada yüklemek için, "Components" -> "Joomla! Update" e tıklamanız yeterli olacaktır.
+Eğer bir güncelleme varsa, "Install the Update" e tıkladıktan sonra, bir kaç dakika içerisinde güncellemenin kurulumu yapılacaktır.
+
+![alt text](http://i.hizliresim.com/B23MpL.png "Joomla Logo")
+
+Not:Joomla güncelleme kurulduktan sonra sizi log out yapacaktır, sisteme tekrar giriş yapmanız gerekecektir.
+
+Başka bir öneri de, güvenilir Joomla şablonları ve eklentileri kullanmaktır.Bunun için Joomla extensions directory'den yada bilinen şirketler tarafından piyasaya sürülmüş ürünler kullanılabilir.Bu sayede ileriye dönük karşılaşılacak problemler daha aza indirgenebilir.
+Her zaman Joomla web sitenizi yedekleyin.Düzenli olarak sitenizi yedeklerseniz, bir saldırı durumunda çok hızlı bir şekilde sitenizi geri döndürmenizi ve kurtarmanızı sağlar.Joomla versiyonları ve eklentileri güncellenmeden önce, yedekleme yapılması önerilmektedir.XAMPP ve MAMP serverlar üzerinde yaptığınız güncellemelerin testini yapabilir ve bu güncellemeler hakkında bilgi edinebilir bu sayede siteniz üzerinde değişiklikler yapmanıza gerek kalmaz.
+
+####2.Akıllı Kullanıcı İsimleri ve Şifreler
+
+
+
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
