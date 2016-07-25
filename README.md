@@ -485,6 +485,20 @@ Dosya isimlerinin görülen URL yapısından saklanması (index.php) önerilen s
 
 ###9.SSL Sertifikası
 
+HTTPS her yerde kullanılmaktadır.Commercial web siteleri için, bu sitelerin hassas verileri işliyor olmasından dolayı SSL sertifikası bir gerekliliktir.Diğer siteler için örneğin sizin siteniz için bakıldığında en önemli sebep Joomla login sayfasıdır.Bir HTTPS bağlantısı üzerinden çalıştırmıyorsanız, kullanıcı adı ve parola internet üzerinden şifresiz metin olarak gönderilir.Birçok kişi bloglar ve bilgilendirici siteler HTTPS'de çalışıyor olması gerekmez olduğunu iddia edecektir , ancak giriş kimliğinin ne kadar önemli olduğuna göre bu sorunun cevabı farklılaşacaktır.Ayrıca , birçok site birden fazla yazarlı ve farklı ağlar ile giriş sağlamaktadır.Bu nedenle güvenli bir bağlantı üzerinden sitenizi çalıştırarak sıkılaştırmasını arttırabilirsiniz.
+
+###10.HTTP Güvenlik Başlıklarının Sıkıştırılması
+
+
+HTTP güvenlik başlıklarının, saldırıları ve güvenlik açıklarını azaltmak için yardımcı Joomla siteniz için güvenlik başka katmanı sağlar.Bunlar genellikle sadece web sunucusu üzerinde küçük bir yapılandırma değişikliği gerektirir.Bu başlıklar, sitenizin içeriğini işlerken nasıl bir davranış sergilediğinizi, tarayıcınıza söyler.Güncelleme veya uygulamanızı önerdiğimiz altı yaygın HTTP güvenlik başlıkları aşağıdadır:
+
+* Content-Security Policy
+* X-XSS-Protection
+* Strict-Transport-Security
+* X-Frame-Options
+* Public-Key-Pins
+* X-Content-Type
+
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
 people, all levels of users are constantly asking questions, and most major ones have
