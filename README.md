@@ -1,4 +1,4 @@
-# Joomla Kullanım Kılavuzu
+# Joomla Kurulum, Kullanım ve Sıkıştırma Kılavuzu
 
 #Giriş
 
@@ -328,84 +328,41 @@ Eklentiler, Joomla'ya eklenebilen, makalelerin içinde görünen yada makalelerl
 
 ###Modüller
 
+Modüller, dinamik web sitelerindeki side box'lar olarak tanınmaktadır. Eklentiler ve modüller arasındaki fark, modüller çoğunlukla yazıların çevresinde shortcut yada yan menü olarak görünmektedir. 
+Örneğin, insanların haber bülteninize doğrudan sizin sayfanız üzerinden üye olabilmesini sağlayan bir modüle sahip olmak istiyorsanız, bir modül indirin yada insanlara üye olmasını sağlayacak izni veren bir modül oluşturun. Daha sonra modülünüzün nerede durması gerektiğine karar vererek işinizi tamamlayın.
 
-Modules can be recognized as being those side boxes on dynamic websites. The
-difference between plugins and modules is that modules appear almost as side
-menus and shortcuts around the articles.
-For example, if you want to have a module that people can use to sign up for your
-newsletter directly from your page, you can download a module, or create one that
-allows people to do that. Then it’s a matter of deciding where you want that
-module to go.
-Each template has its particular slots that are created to hold modules. The most
-common ones are: Left bar, Right bar, Footer and Header. Most have many sub slots
-you can use, where they divide those main areas into smaller parts. For example,
-some templates have a user 1, user2, and user 3 on the bottom of the page. That
-means you have 3 small columns on top of the footer so you can add several
-modules on the bottom of your site.
-Now, I mentioned you could download modules and also create modules, so how
-do you create one?
-Under the “Extensions” button, select Modules. Then click “New”. You will be given a
-large list of options to use. Some of them are modules of components you might
-have installed already, and some are default Joomla components. A few of those
-are very flexible modules, such as the HTML option.
-Basically it works like any other HMTL page. Whatever you want to add to it as far as
-text, links, or anything else that can be added to HTML, you can add it there.
-Once you have created the module, you must decide where you want it to go. You
-will find a pull down of positions on the upper left hand side of your screen.
-Select the position, make sure the module is enabled and save. You should now see
-it on your pages. If it is in a position you don’t like or you don’t see it, just return to
-your modules manager and select a different position.
+Her şablon modülleri tutan belirli slotlar tarafından oluşturulmuştur. En bilinenleri: Left bar, Right bar, Footer ve Header'dır. Birçoğunun ana bölgeleri, küçük bölgelere bölebilmenize yarayan alt slotları vardır. Örneğin, sayfanın altında, user1, user2 ve user3 adlı bazı şablonlar tarafından kullanılan modüller var. Diğer bir deyişle top'tan footer'a 3 küçük sütun olup, belirli modülleri sitenin altına ekleyebilirsiniz.
+
+Yukarıda daha önce belirtildiği gibi, modülleri indirebilir yada oluşturabilirsiniz. Bu durumda bir modül nasıl oluşturulur?
+
+"Extensions" butonunun altında, "Modules" seçin. Daha sonra "New" tıklayın. Kullanabileceğiniz opsiyonların büyük bir listesi sunulacaktır. Bazı modül bileşenleri, daha önceden kurulmuş, bazıları ise default Joomla bileşenleridir. Birkaçı çok esnek modüllerdir(Örneğin, HTML opsiyonu).
+
+Basit bir şekilde başka herhangi bir HTML sayfası gibi çalışır. Buradan, istediğiniz text, link yada herhangi bir şeyi HTML'e ekleyebilirsiniz. Modülü oluşturduktan sonra, nerede konumlanacağına karar vermelisiniz. Duracağı pozisyonu seçtikten sonra, modülün kurulduğundan ve kaydedildiğinden emin olun. Eğer istediğiniz şekilde modülünüzü göremediyseniz veya beğenmediyseniz, tekrar modül yöneticisine dönüp farklı bir pozisyon seçebilirsiniz.
+
 
 ![alt text](http://i.hizliresim.com/J2gpLE.png "Joomla Logo")
 
-##Components
-Components work as added features to your Joomla site. They are more complex
-additions than plugins or modules because they usually bring various features with
-them. Some famous components include JomSocial (not free), which creates a full
-social network within your Joomla site, or Acajoom, which is a powerful email list
-component.
+##Bileşenler
+
+Bileşenler, Joomla sitenize eklenmiş özellikler olarak çalışır. Eklenti ve modüllerden çok daha kompleks eklemelere sahiptir. Bazı ünlü bileşenler JomSocial; siteniz içindeki bütün bir sosyal networkü oluşturabilen, yada güçlü bir e-mail listesi bileşeni olan Acajoom.
 
 ![alt text](http://i.hizliresim.com/AJlAZ7.png "Joomla Logo")
 
-Even though the installation follows the same process as the other extensions,
-because they are more complex, they usually require that several modules are
-enabled or that you configure the component, so follow the creator’s instructions.
+Diğer eklentiler gibi benzer bir kurulum sürecini takip ediyor olsa da, diğerlerinden daha kompleks bir yapıya sahip olduğundan bileşenleri konfigüre etmek gerekir bu yüzden de yaratıcının komutları takip edilmelidir.
 
-##Templates
-Anyone who opens the first page of their Joomla site will understand why the
-templates are so necessary. Though Joomla gives you full access to the site’s HTML
-and CSS, so you can make all the changes you want yourself, most people aren’t
-fluent in those languages. That’s where the pre-made templates can be an
-incredible help. 
-Joomla comes with a few templates already installed, but honestly, they are no
-help. One is called Beez, and it literally has bees (the insect) all over it. Not the most
-charming of templates…funny, but not an eye pleaser…
+
+##Şablonlar
+
+Joomla sitesinin ilk sayfasını yayınlamak isteyen birisi, şablonların ne kadar önemli olduğunu anlayacaktır. Joomla, sitenin HTML ve CSS'ine tam erişim veriyor olsa da, çoğu kullanıcı bu dilleri etkin bir biçimde kullanamaz.Bu yüzden de şablonlar yardıma yetişir. 
+
 
 ![alt text](http://i.hizliresim.com/qBX43W.png "Joomla Logo")
 
-Other sites and developers have much more professional looking templates with
-several options for modules placement.
-A quick search for “Joomla templates” on Google will result in hundreds of sites
-where you can get free and paid templates.
-Installing them is usually very simple, consisting of going to the same interface you
-use to install most extensions.
-Once the template is installed, you can go to the “Extensions >Template Manager”
-and you should see the new template as one of the options. Check the bullet for
-that template and click on the star that says “Default” on the upper right hand side
-of the screen. Now if you go and look at your site you will see the new template.
+Başka siteler ve yazılımcılar, modüllerin yerleştirilmesi için profesyonel görünümlü, çok sayıda opsiyona sahip şablonlar tasarlarlar. Google üzerinden "Joomla templates" şeklinde hızlı bir arama yapıldığında, ücretsiz ve paralı şablonlara ulaşabileceğiniz yüzlerce site bulabilirsiniz.
+Bu şablonları yüklemek genelde daha basit olduğundan, şablonların bu yolla kullanılması ve kurulumunun yapılması tercih edilmektedir.
+Yükledikten sonra; "Extensions >Template Manager" yeni bir şablonun olduğunu görebilirsiniz. Şablonu seçerek "Default" a tıklarsanız, bu şablonun sitede default olarak tasarlanmış yerinde duracak şekilde konumlanan yeni bir şablonu sitenizde görmüş olursunuz.
+Şablonlarla ile ilgili bir problem de, insanlar internet siteleri üzerinde gördükleri şablonların resimleri üzerinden yola çıkarak onları indirip, sitelerinde denemekte ve gördükleri resimle aynı sonucu alamamaktadır.Bunun sebebi o şablon üzerinde bir çok düzenleme yapılması gereklidir.
 
-One thing that causes a lot
-of confusion is when
-someone uploads a
-template they saw a
-screenshot for, and once
-making it the default for
-their site, realize that their
-site looks very different from
-the picture of the template.
-The main reason that
-happens is because a lot of
-times, the templates comes
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
