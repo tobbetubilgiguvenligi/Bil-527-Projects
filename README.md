@@ -367,9 +367,9 @@ Yükledikten sonra; "Extensions >Template Manager" yeni bir şablonun olduğunu 
 
 Joomla, açık kaynaklı bir içerik yönetim sistemidir ve bir MVC framework üzerine tasarlanmıştır.Güncel olarak en çok kullanılan içerik yönetim sistemleri arasında internet üzerinde %2.6'lık bir kullanımla, 2. sırayı almıştır.Bu rakam çok fazla bir büyüklüğü işaret etmiyor gibi görünse de, günümüzde milyonlarca işletme ve blog sitesinin dizaynını ve oluşturulmasını Joomla ile gerçekleştirmektedir.Yoğun olarak kullanılan sistemlerde, sürekli saldırı yada hacklenme halinde bulunma riskinden dolayı  extra koruma önlemleri alınmaktadır.Brute-force saldırılara karşı Joomla'nızı sıkılaştırmak için sıkılaştırma adımlarını uygulamanız gerekmektedir.
   
-###Joomla Güvenliği
+##Joomla Güvenliği
 
-####1.Joomla ve Eklentilerini Güncel Tutun
+###1.Joomla ve Eklentilerini Güncel Tutun
 
 Joomla'nız ve eklentilerini her zaman güncel versiyonlarıyla tutmalısınız. Yazılımcılar, eski versiyonlarda oluşabilecek yada oluşmuş olan zaafiyetleri gözlemleyip bunların çözümlendiği ve diskarte edildiği yeni versiyonları sunmaktadır. Hackerlar, genelde eski versiyonlara saldırı düzenlemektedirler.Örneğin 2015 Ekimde "SQL Injection Vulnerability" bulundu.Ve bu zaafiyet milyonlarca insanı etkiledi.joomla.org adresinden her zaman Joomla'nın en güncel versiyonlarını indirebilirsiniz.
 
@@ -387,9 +387,38 @@ Not:Joomla güncelleme kurulduktan sonra sizi log out yapacaktır, sisteme tekra
 Başka bir öneri de, güvenilir Joomla şablonları ve eklentileri kullanmaktır.Bunun için Joomla extensions directory'den yada bilinen şirketler tarafından piyasaya sürülmüş ürünler kullanılabilir.Bu sayede ileriye dönük karşılaşılacak problemler daha aza indirgenebilir.
 Her zaman Joomla web sitenizi yedekleyin.Düzenli olarak sitenizi yedeklerseniz, bir saldırı durumunda çok hızlı bir şekilde sitenizi geri döndürmenizi ve kurtarmanızı sağlar.Joomla versiyonları ve eklentileri güncellenmeden önce, yedekleme yapılması önerilmektedir.XAMPP ve MAMP serverlar üzerinde yaptığınız güncellemelerin testini yapabilir ve bu güncellemeler hakkında bilgi edinebilir bu sayede siteniz üzerinde değişiklikler yapmanıza gerek kalmaz.
 
-####2.Akıllı Kullanıcı İsimleri ve Şifreler
+###2.Akıllı Kullanıcı İsimleri ve Şifreler
 
+Joomla'da kullanacağınız kullanıcı adı ve şifreyi seçerken akıllı olmalısınız. Kullanıcı adı "admin" seçmemeli ve şifrelerinizi kompleks olarak tasarlamanızda fayda vardır.Bu yöntem Joomla'nızı sıkılaştırmanın en kolay ve muhtemelen de en iyi yoludur.İnsanlar kolay hatırlayabilmek için basit şifreler tercih etmekte ve hacklendikten sonra çok pişman olmaktadır.
 
+Joomla administrator kullanıcı adını değiştirmenize izin vermektedir.
+
+![alt text](http://i.hizliresim.com/AJWqgX.png "Joomla Logo")
+
+Daha sonra basit bir şekilde, "Login Name" alanından değişikliği yapıp, "Save" e tıklayın.
+
+![alt text](http://i.hizliresim.com/WYmZ12.png "Joomla Logo")
+
+Ayrıca KeePass veya KeePassX gibi güvenli şifreler üreten, bunları bilgisayarınızda veri tabanında lokal olarak güvenilir bir şekilde saklayan programlar da kullabilirsiniz.
+
+###3.Joomla Güvenlik Eklentileri
+
+Günümüzde birçok sayıda, sitenizin ataklara karşı savunmasında yardımcı olan güvenlik eklentileri bulunmaktadır.Bu eklentiler; güvenlik tehditlerini sınırlandırmanıza yada bloklamanıza, şeytanı tehditleri bloklamanıza, zaafiyetlerin taranmasında, güçlü şifrelerin kabul zorunluluğu haline getirilmesine ve birçok işlemi yapmanıza olanak sağlar.En yaygın olarak kullanılanları:
+
+* ACL Manager: Joomla izin tablonuzdaki sorunları kolayca çözümlemenizi sağlar.
+* AdminExile: Brute-force tespiti, blacklist ve whitelist IP'ler.
+* QuickLogout: İnsanların logout olduktan sonra, bu işlemin gerçekleştiğine dair verilen yanıttan kurtulunması.
+* Securitycheck Pro: Serverınızın çalışma hızı etkilenmeden sitenizi korumanızı sağlayan global bir koruma programı.
+* jomDefender: CSRF engelleme, Joomla PHP Header'ı kaldırma, Admin password prompt.
+
+Bu tarz eklentiler ek olarak:
+* Gizli bir URL ile, adminin kısıtlanmasını, 
+* Web Application Firewallyaygın saldırıları bloklar(SQL injection, XSS, DFI, RFI, malicious user agent, CSRF/spam-bot protection, uploads scanner).
+* IP Whitelisting ve Blacklisting
+* Coğrafik bloklama(spesifik bölgelerden erişimin reddedilmesi)
+* Tekrarlı saldırganlara karşı IP Blocking işlemlerinin yapılmasını sağlar
+
+###4.Bad Bots Bloklama
 
 
 ##Joomla Community and Support
