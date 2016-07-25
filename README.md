@@ -458,6 +458,19 @@ Joomla kurulum sırasında, aşağıdaki konfigürasyonları önermektedir:
 
 Bu önerilere rağmen, kurulum sırasında daha kısıtlayıcı izinler tanımlamanız daha önerilen ve güvenilir bir yol olacaktır.
 
+###7."Administrator Login" 'i Koruma
+
+Joomla'nızı admin giriş alanında şifre koruma işlemi ile daha da fazla sıkılaştırabilirsiniz.Bunu kolayca, daha önce bahsettiğimiz Admin Tools eklentisi ile yapabiliyoruz.
+
+* “Components” → “Admin Tools” 'a tıklayın, sonrasında "Password-Protect Administrator" 'a tıklayın.
+
+![alt text](http://i.hizliresim.com/y4gomk.png "Joomla Logo")
+
+* Bu özellik (password-protect administrator) .htaccess dosyalarını kullanmaktadır.Ayrıca, serverınızında bu tipteki bir şifre korumasını desteklemesi gerekir.
+
+![alt text](http://i.hizliresim.com/1dqDk5.png "Joomla Logo")
+
+Bu işlemi manuel olarak .htaccess dosyayı üzerinde de yapabilirsiniz.
 
 
 ##Joomla Community and Support
