@@ -312,34 +312,23 @@ lists, calendars, photo albums, and an endless amount of other features that can
 added to your Joomla site.
 
 
-To install any of the features described below, all you do is go to the “Extensions”
-button and select “Install/Uninstall”. You will be taken to a page that allows you to
-search for the file on your computer or upload the file from a URL. That file is usually a
-zipped file, and it should not have been extracted.
-Once you found the file, click on “Upload and Install”. After a few moments you
-should get a message saying it has installed successfully. From that point, you can
-go to the Modules, plugins, components or template manager to enable them.
+Aşağıdaki özelliklerden herhangi birini kurmak için, yapmanız gereken "Extensions" butonuna gitmek ve "Install/Uninstall" 'u seçmek olacaktır. Bilgisayarınıza bir URL'den dosya yüklenecek ve bu dosyayla ilgili bilgisayarınız üzerinde arama işlemlerinin izninin verildiği bir sayfaya yönlendirileceksiniz.
+
+Dosyayı bulduktan sonra, "Upload and Install" 'a tıklayın. Kısa bir süre sonra, kurulumun başarılı bir şekilde tamamlandığına dair mesaj alacaksınız. Bu andan itibaren, modüllere, eklentilere,  bileşenlere ve şablon yöneticisine erişebileceksiniz.
 
 ![alt text](http://i.hizliresim.com/z4zgv6.png "Joomla Logo")
 
-ople tend to get a bit confused about the differences between plugins and
-modules, and about what components actually do. So let me try to clear up some
-of the misunderstandings.
-(You can find some of the free extensions I describe below at:
+(Aşağıda verilen linkten ücretsiz eklentiler bulabilirsiniz:
 http://www.makeuseof.com/tag/10-free-joomla-extensions-live/ )
 
-###Plugins
-Plugins are features that can be added to Joomla, which will appear within the
-articles themselves, or that relate to interfacing with the articles. For example, I love
-having options for people to share the articles on my Joomla sites and to bookmark
-them. This is something that should be added to each individual article so that it
-works properly, but I don’t want to have to add it to each page by hand.
-That’s where the plugins come into play. I searched the Joomla extensions site for
-social bookmarks and found several plugins that added that feature to my site. After
-installing one, and enabling it, now, when I write an article, the links to the social
-networks automatically appear on each page.
+###Eklenti
 
-###Modules
+Eklentiler, Joomla'ya eklenebilen, makalelerin içinde görünen yada makalelerle arayüz bağlantısı kurmaya yarayan özelliktir. Örneğin, Joomla sitenize, insanların makaleleri ,yazıları paylaşmaları için bir opsiyon tanımladınız. Her bir yazı için, elinizle eklemeyi, birbirinden ayırmayı istemiyorsunuz, durumu daha efektif bir şekilde çözümlemek istiyorsunuz. Bu durumda, eklentiler devreye girer. Bir yazıyla ilgili istediğiniz bilgilerin başka bir sayfalarda bulunmasını, hızlı ve efektif olarak eklentiler üzerinden yapabilirsiniz. Internet üzerinden çok sayıda ücretsiz eklentiye ulaşmak mümkündür.
+
+
+###Modüller
+
+
 Modules can be recognized as being those side boxes on dynamic websites. The
 difference between plugins and modules is that modules appear almost as side
 menus and shortcuts around the articles.
@@ -438,51 +427,4 @@ helps to make your new CMS experience a much easier one.
 If you ever run into any problems using Joomla, please ask for help at MakeUseOf
 Answers and someone will be able to assist you with your matter, or view other
 Joomla questions.
-Further Reading
-If you would to read more about Joomla, make sure you read the following Make
-Use Of articles:
- 10 Best Free Joomla Extensions You Can't Live Without
- Building an Intranet For Dummies – A Step by Step Guide
- How To Build a Free Website That Makes Money Without Any Coding
-with several modules and
-plugins that have to be
-made active and placed
-on particular parts of the
-site. Read the instructions
-carefully if they are
-provided and don’t assume
-your site will look identical to
-the picture in the template.
-Some extensions I suggest:
-For some suggestions for
-extensions I would suggest
-checking out my MUO
-article:
-“10 Best Free Joomla
-Extensions You Can’t Live
-Without”
-Some sites for free
-templates:
-Joomla24
-Joomlaxe
-SiteGround
 
-Did you like this PDF Guide? Then why not visit MakeUseOf.com for daily posts on
-cool websites, free software and internet tips.
-If you want more great guides like this, why not subscribe to MakeUseOf and receive
-instant access to 20+ PDF Guides like this one covering wide range of topics.
-Moreover, you will be able to download free Cheat Sheets, Free Giveaways and
-other cool things.
-Subscribe to MakeUseOf : http://www.makeuseof.com/join
-MakeUseOf Links:
-Home: http://www.makeuseof.com
-MakeUseOf Directory: http://www.makeuseof.com/dir
-MakeUseOf Answers: http://www.makeuseof.com/answers
-Geeky Fun: http://www.makeuseof.com/tech-fun
-PDF Guides: http://www.makeuseof.com/pages/
-Tech Deals: http://www.makeuseof.com/pages/hot-tech-deals
-Follow MakeUseOf:
-RSS Feed: http://feedproxy.google.com/Makeuseof
-Newsletter: http://www.makeuseof.com/join
-Facebook: http://www.facebook.com/makeuseof
-Twitter: http://www.twitter.com/Makeuseof
