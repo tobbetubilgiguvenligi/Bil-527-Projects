@@ -420,6 +420,8 @@ Bu tarz eklentiler ek olarak:
 
 ###4.Bad Bots Bloklama
 
+Joomla sitenizin bant genişliğini çalmak isteyen birçok bad bots, scrappers ve crawlers bulunmaktadır. 
+
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
