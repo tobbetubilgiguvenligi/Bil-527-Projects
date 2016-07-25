@@ -489,7 +489,6 @@ HTTPS her yerde kullanılmaktadır.Commercial web siteleri için, bu sitelerin h
 
 ###10.HTTP Güvenlik Başlıklarının Sıkıştırılması
 
-
 HTTP güvenlik başlıklarının, saldırıları ve güvenlik açıklarını azaltmak için yardımcı Joomla siteniz için güvenlik başka katmanı sağlar.Bunlar genellikle sadece web sunucusu üzerinde küçük bir yapılandırma değişikliği gerektirir.Bu başlıklar, sitenizin içeriğini işlerken nasıl bir davranış sergilediğinizi, tarayıcınıza söyler.Güncelleme veya uygulamanızı önerdiğimiz altı yaygın HTTP güvenlik başlıkları aşağıdadır:
 
 * Content-Security Policy
@@ -498,6 +497,9 @@ HTTP güvenlik başlıklarının, saldırıları ve güvenlik açıklarını aza
 * X-Frame-Options
 * Public-Key-Pins
 * X-Content-Type
+
+##Joomla Eklentilerinin Güvenliği
+
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
