@@ -520,6 +520,32 @@ Bu sayede, cracker doğrudan dosyaya ulaşmak istediğinde boş bir sayfa görec
 
 ![alt text](http://i.hizliresim.com/L3mMLz.png "Joomla Logo")
 
+###2.Yazılımınızı Uzak Kaynak İlavesine (Remote File Inclusion) Karşı Koruyun
+
+PHP ve Joomla güvenlik alanındaki son gelişmeler ile bu saldırıyı yapmak eskiye oranla çok daha zordur.Bu durumu engellemek için aşağıdaki kodu kullanmak gerekli olacaktır.
+
+![alt text](http://i.hizliresim.com/X4m1qD.png "Joomla Logo")
+
+Bir hacker, URL üreterek layout parametresinin içine, herhangi bir dosya adı altında, bir fotoğrafmış izlenimi vererek aslında çalışan bir PHP kod parçası gönderebilir.Hacker, serverınızın üzerinde istediği herşeyi yapabilir.Buna uzak kaynak ilavesi denilmektedir.Bu türdeki saldırılar absolute pathlere hedef alındığında çok daha zor bir hale gelmektedir.
+
+![alt text](http://i.hizliresim.com/2ZB39O.png "Joomla Logo")
+
+JPATH_SITE JPATH_ADMINISTRATOR, saldırganlar tarafından manipüle edilmesi mümkün olmayan sabitlerdir.Bunlar Joomla tarafından tanımlanan, sitedeki path'e ihtiyaç olunduğunda kodunuzun herhangi bir yerinde kullanabileceğiniz sabitlerdir.Ancak $GET kullanmak yerine, JINPUT kullanarak kullanıcı girişini daha da sterilize edebilmekteyiz.
+
+![alt text](http://i.hizliresim.com/PMmWaN.png "Joomla Logo")
+
+Uzaktan dosya dahil edilmesine karşı kodunuzu güvenli hale getirmek için , dosyalar da dahil olmak üzere zaman hiçbir tamımlı olmayan girişin yapılmadığından emin olmak gerekir. $ GET ve $ _POST dizileri kullanmak yerine, daha steril bir kullanıcı girişi optimizasyonu içeren Joomla JInput kullanılmalıdır. 
+
+###3.Yazılımızı SQL Enjeksiyonuna Karşı Koruyun
+
+SQL enjeksiyonu sizin veritabanındaki verileri değiştirmek veya saldırganın mantıklı veriler verdiği izlenimi için, script çalıştırır ve saldırganlar için bazı güvensiz SQL sorguları üzerinde değişiklikler yapar.Bu sayede geçersiz kullanıcı girişi yapabilmeye olanak sağlanır.Örneğin;
+
+$value = $_GET['value'];
+$database->setQuery( "SELECT * FROM #__mytable WHERE id = $value" );
+
+Bir saldırgan bu sorguda $value için "1 OR 1" yazdığında bu tablodaki bütün bilgilere erişebilecekti.Bu örnek bu türdeki saldırı için, basit bir örnektir bunun gibi birçok senaryo üretilebilir.Yazılımcılar arasındaki bir diğer yanılgı ise, veri tabanındaki önemi olmayan bir tablonun, güvenliğinin de önemli olmadığı görüşüdür.Halbuki bir saldırgan, bu tabloya ele geçirdikten sonra UNION SELECT komutu sayesinde, geri kalan bütün tablolara erişme şansı yakalar ve bu çok büyük bir güvenlik riskidir.
+
+
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
 people, all levels of users are constantly asking questions, and most major ones have
