@@ -536,7 +536,7 @@ JPATH_SITE JPATH_ADMINISTRATOR, saldırganlar tarafından manipüle edilmesi mü
 
 Uzaktan dosya dahil edilmesine karşı kodunuzu güvenli hale getirmek için , dosyalar da dahil olmak üzere zaman hiçbir tamımlı olmayan girişin yapılmadığından emin olmak gerekir. $ GET ve $ _POST dizileri kullanmak yerine, daha steril bir kullanıcı girişi optimizasyonu içeren Joomla JInput kullanılmalıdır. 
 
-###3.Yazılımızı SQL Enjeksiyonuna Karşı Koruyun
+###3.Yazılımınızı SQL Enjeksiyonuna Karşı Koruyun
 
 SQL enjeksiyonu sizin veritabanındaki verileri değiştirmek veya saldırganın mantıklı veriler verdiği izlenimi için, script çalıştırır ve saldırganlar için bazı güvensiz SQL sorguları üzerinde değişiklikler yapar.Bu sayede geçersiz kullanıcı girişi yapabilmeye olanak sağlanır.Örneğin;
 
@@ -544,6 +544,54 @@ $value = $_GET['value'];
 $database->setQuery( "SELECT * FROM #__mytable WHERE id = $value" );
 
 Bir saldırgan bu sorguda $value için "1 OR 1" yazdığında bu tablodaki bütün bilgilere erişebilecekti.Bu örnek bu türdeki saldırı için, basit bir örnektir bunun gibi birçok senaryo üretilebilir.Yazılımcılar arasındaki bir diğer yanılgı ise, veri tabanındaki önemi olmayan bir tablonun, güvenliğinin de önemli olmadığı görüşüdür.Halbuki bir saldırgan, bu tabloya ele geçirdikten sonra UNION SELECT komutu sayesinde, geri kalan bütün tablolara erişme şansı yakalar ve bu çok büyük bir güvenlik riskidir.
+
+![alt text](http://i.hizliresim.com/aEmrqR.png "Joomla Logo")
+
+$GET yada $POST dizileri yerine JInput kullanmak, SQL enjeksiyon problemini her zaman engellememektedir.Enjeksiyon saldırıları , diğer durumlarda mükemmel kabul edilebilir karakterler kullanılarak yapılabilir, bu yüzden kullandığınız filtreleribunları önlemek için yeterli olmayabilir.En güvenilir yol yukarıdaki görsellerde gösterildiği gibi, string için escape kullanımı, integer değişkenler içinde sınırlandırma getirmektir.
+
+###4.Yazılımınızı XSS'e karşı korumak
+
+Cross Site Scripting (XSS), misafir bir tarayıcıda yürütülmekte olan (JavaScript) script kodlarını ifade etmektedir.Bu saldırılar bir kullanıcının oturum çerezi çalmak ve bu nedenle bir saldırganın bir kullanıcı oturumu açması için taklite izin vermek için kullanılabilir , bu yüzden çok tehlikeli olabilir.Bu tarz kodlar ziyaretçiler için çok tehlikelidir.
+
+![alt text](http://i.hizliresim.com/YbmZl6.png "Joomla Logo")
+
+İkinci görseldeki gibi özel html karakterlerini de dahil edebilirsiniz.
+
+###5.Yazılımınızı Cross-Site Request Forgery'e Karşı Korumak
+
+Bir siteye ait olan super kullanıcının kendi sitesine giriş yaptığını ve sahte bir kaynak görüntüsü içeren başka bir sitenin hacklenmiş bir sayfasını da ziyaret ettiğini varsayalım.
+
+http://example.com/administrator/index.php?option=com_yourcomponent&task=deleteall
+
+Arayıcı sahte resim yüklemek girişimi ve bunu yaparken bileşen veritabanı her şeyi silecektir.Böyle bir durumla karşılaşıldığında, tehlikeli bir işlem yapılmadan önce bu emirlerin kontrol edilmesi gerekir.
+
+![alt text](http://i.hizliresim.com/dbmg9X.png "Joomla Logo")
+
+Eklentiniz silmek gibi tehlikeli bir işlem yapmadan önce, kontrol edecek ve yukarıdaki gibi "Invalid Token" mesajı verecektir.
+
+###6.Açık Dosya(0777) ve Klasör İzinlerinden Kaçınmak
+
+PHP yazılım geliştiricileri arasında, 0777 Linux izni ile klasörlerin ve dosyaların, dosyaların manipüle etmek için kullanımı bir alışkanlık halini almıştır.Bu durum aynı server üzerinde bir hesaba sahip olan herkes tarafından, dosyalar üzerinde işlem yapılabileceği anlamına gelmektedir.Paylaşılmış serverlar üzerinde bulunan siteler için bu durum büyük bir risk teşkil etmektedir.Cross site scripting atakları, bazen Java appletleri ve Flash uygulamaları üzerinden de yapılabilmektedir.İçinde açık dosya bulunan siteler, saldırıya açık bir hale gelmektedir.Normalde, programcının müşteriye bu durumu açıklayarak, görüşünü alarak bu opsiyonu tercih etmesi beklenmektedir.Açık dosya kullanımının hiç bir faydası bulunmamaktadır.Bu yüzden chmod kullanarak bu dosyalara geçici olarak izin sağlayın ve daha sonra hepsini kapalı konuma getirin.
+
+###7.Kullanıcıların Ayrıcalıklı Erişimlerini Kontrol Etmek
+
+Kullanıcılar ile ilgili belirli özel yetkileri verirken (oluşturma, düzenleme, silme vb.), bu kişilere doğru yetkilendirmeler yaptığınızdan emin olmalısınız.Kullanıcının bu yetkiye sahip olup olmadığını denetleyebilmesi için, bu yetkileri kontrol edebileceği bir ekleme de yapılması önemlidir.
+Joomla ACL (Access Control List), çok detaylı bir konu olup, geniş bilgi almak için http://docs.joomla.org/J2.5:Developing_a_MVC_Component/Adding_ACL adresini ziyaret ediniz.
+
+ACL içeren temeller oldukça basit olup, 3 temel evreden oluşmaktadır.
+
+1.Bileşeninizin yönetici klasörüne, access.xml isimli bir dosya ekleyin.Bu dosya kontrol etmek istediğiniz erişimleri tanımlayacaktır.
+
+![alt text](http://i.hizliresim.com/1dql3G.png "Joomla Logo")
+
+2.Bileşeninizin config.xml dosyasına, izin fieldseti ekleyin, bu eklenti site yöneticisinin tanımlanan eylemler için vereceği izinleri düzenleyecektir.
+
+![alt text](http://i.hizliresim.com/B235nG.png "Joomla Logo")
+
+3.Kullanıcının doğru eylemlere erişiminin olup olmadığını kontrol etmek için, JUser $user->authorise metodunu kullanın.
+
+![alt text](http://i.hizliresim.com/1dqlO1.png "Joomla Logo")
+
 
 
 ##Joomla Community and Support
