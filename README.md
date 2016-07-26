@@ -594,24 +594,3 @@ ACL içeren temeller oldukça basit olup, 3 temel evreden oluşmaktadır.
 
 
 
-##Joomla Community and Support
-One of Joomla’s major strengths is its community. Being such a large group of
-people, all levels of users are constantly asking questions, and most major ones have
-already been answered by someone somewhere, so checking out the forums
-(http://forum.joomla.org/) and the Wiki pages (http://docs.joomla.org/) can answer
-most questions you might have.
-
-#Conclusion
-Like most interfaces with a lot of features, Joomla can seem to have a long learning
-curve, due to all of its features and all its possible configurations. The task is much less
-time consuming that it seems, especially if you set yourself to master one feature at
-a time. In no time you can have an easy to update dynamic site that can also grow
-with you.
-Changing looks and adding features can be done in minutes and major
-configuration changes can be done by changing a few files. If you’ve ever
-considered using Joomla, I hope this guide inspires you to give it a try, and I hope it
-helps to make your new CMS experience a much easier one.
-If you ever run into any problems using Joomla, please ask for help at MakeUseOf
-Answers and someone will be able to assist you with your matter, or view other
-Joomla questions.
-
