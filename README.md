@@ -500,6 +500,23 @@ HTTP güvenlik başlıklarının, saldırıları ve güvenlik açıklarını aza
 
 ##Joomla Eklentilerinin Güvenliği
 
+Varsayılan olarak , Joomla çok güvenlidir. En temel bileşenler güvenli olsa da, sık sık hackerlar üçüncü parti uzantılarını kullanarak sisteme girmektedirler.Bu kısımda, eklentilerinizi en güvenilir hale getirebilmek adına çözümler sunulacaktır.Maximum güvenliği sağlamak için, bu özellikler kesinlikle uygulanmalıdır.
+
+###1.Yazılımınızı Doğrudan Erişime Karşı Koruyun
+
+Bileşenlerin dosyaları genellikle Joomla tarafından çağrılır.Joomla yazılımınızın etrafında wrapper gibi konumlanır , bu sayede kullanıcı kimlik doğrulama ve gibi birçok kullanışlı özellik sunar.Geliştiriciler genellikle sadece Joomla yoluyla bileşenleri test ettiklerinden dolayı, onları doğrudan çağırma olasılığını görmezden gelmektedirler.
+
+http:/ /www.example.com/index.php?option=com_yourcomponent
+
+Hackerlar aynı zamanda bunu da deneyebilirler:
+
+http:/ /www.example.com/components/com_yourcomponent/yourcomponent.php
+
+Gördüğünüz gibi, PHP dosyası Joomla olmaksızın çalıştırabildi.Dosyanız bazı sınıfları ve fonksiyonları içerseydi ancak onları çalıştırmasaydı, herhangi bir problem olmayacaktı.
+
+![alt text](http://i.hizliresim.com/1dqbo5.png "Joomla Logo")
+Bu sayede, cracker doğrudan dosyaya ulaşmak istediğinde boş bir sayfa görecektir.Ancak PHP dosyası gerçekten herhangi birşeyi çalıştırsaydı, cracker belirli bir miktarda hata mesajı görecekti ve sistemin önemli detaylarını öğrenmiş olacaktı.Bileşenlerinizi doğrudan erişime karşı korumak istiyorsanız, aşağıda gördüğünüz kod satırını PHP uzantılı bütün dosyaların başına ekleyin.
+![alt text](http://i.hizliresim.com/L3mMLz.png "Joomla Logo")
 
 ##Joomla Community and Support
 One of Joomla’s major strengths is its community. Being such a large group of
