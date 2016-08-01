@@ -3,7 +3,7 @@
 
 **VPN(Virtual Private Network/Sanal Özel Ağ)** internet üzerinden şifreli ve güvenli olarak veri iletişimi sağlanılmasına ortam hazırlayan bir teknolojidir. Aynı zamanda ISP tarafından yasaklanan sitelere erişilmesini sağlar. VPN sayesinde internet kullanılarak kurumsal ağların birbirine bağlanması daha düşük maliyetlerde gerçekleştirilir. VPN sayesinde kurumsal ağlarda firewall arkasında çalışanlar güvenli bir iletişim ortamı elde ederler.
 
-İki tip VPN teknolojisi bulunur. Bunlar *“Remote Access VPN”* ve *"Site-to-site VPN”* olarak geçer. *Remote Access VPN*’i, farklı lokasyonlardaki şubeleri merkeze bağlamak ya da farklı yerlerde bulunan çalışanların kurum ya da firma ağına istedikleri her yerden güvenli iletişim elde etmeleri için kullanılır
+İki tip VPN teknolojisi bulunur. Bunlar *“Remote Access VPN”* ve *"Site-to-site VPN”* olarak geçer. *Remote Access VPN*’i, farklı lokasyonlardaki şubeleri merkeze bağlamak ya da farklı yerlerde bulunan çalışanların kurum ya da firma ağına istedikleri her yerden güvenli iletişim elde etmeleri için kullanılır.
 
 *Site-to-site VPN* ise farklı firmaların birbirleri ile güvenli iletişim kurmaları amacıyla oluşturulur. Aynı zamanda *Remote Access VPN* de olduğu gibi kurum şubelerinin merkez ağa bağlanması sağlanır bu VPN yapısında iki tarafta VPN sunucu bulunur. 
 
@@ -303,10 +303,10 @@ log-append openvpn.log 
 client-config-dir client-configs
 ```
 
-#OpenVPN İstemci (Client) Bağlantı Yapılandırılması
+#OpenVPN  Client Bağlantı Yapılandırılması
 
 * Client için ayar dosyasının hazırlanması gereklidir. Clientlar için birçok yetkilendirme yöntemi kullanılır. Sertifika bağlantılı yöntem anlatılmıştır. Öncelikle clienta OpenVPN kurulur. Ubuntu üzerinde openvpn kurulumu ve yapılandırma dosyasının oluşturulması için aşağıdaki komutlar uygulanmalıdır. Windows ve MAC için farklı client yazılımları da bulunur. Fakat yapılandırma dosyası içeriği tüm işletim sistemlerinde aynıdır.
-Client makinede aşağıdaki komutlar çalıştırılarak openvpn client kurulumu yapılır.
+Client makinede aşağıdaki komutlar çalıştırılarak OpenVPN client kurulumu yapılır.
 ```
 $ sudo apt-get update
 $ sudo apt-get install openvpn
@@ -355,7 +355,7 @@ comp-lzo yes
 verb 3
 ```
 
-*Client.conf* dosyası oluşturulduktan sonra openvpn sunucusuna bağlanılır. Aşağıdaki komutla vpn bağlantı gerçekleştirilir.
+*client.conf* dosyası oluşturulduktan sonra openvpn sunucusuna bağlanılır. Aşağıdaki komutla vpn bağlantı gerçekleştirilir.
 ```
 sudo openvpn /etc/openvpn/client.conf
 ```
@@ -404,7 +404,7 @@ Or
 $ /etc/init.d/openvpn restart 
 ```
 
-* OpenVPN programı Ubuntu'nun paket deposundan yüklediğinde program daemon olarak çalışmaya başlar. Kendini her açılışta çalıştırmak üzere ayarlar. Otomatik olarak başlarken okuması gereken ayar dosyaları /etc/openvpn dizini altına koyulur. Böylece her açılışta doğru ayarlar ile başlar.Öncelikle deamon sonlandırılır.
+* OpenVPN programı Ubuntu'nun paket deposundan yüklediğinde program daemon olarak çalışmaya başlar. Her açılışta çalıştırmak üzere ayarlar. Otomatik olarak başlarken okuması gereken ayar dosyaları /etc/openvpn dizini altına koyulur. Böylece her açılışta doğru ayarlar ile başlar.Öncelikle deamon sonlandırılır.
 ```
 $ sudo /etc/init.d/openvpn stop
 ```
