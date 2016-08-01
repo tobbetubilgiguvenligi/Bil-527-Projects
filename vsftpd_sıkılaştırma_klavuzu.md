@@ -106,5 +106,6 @@ FTP yapısı gereği clear text bir protokoldür. Yani paketler şifrelenmeden a
  Artık yapılandırma dosyasını kaydederek çıkabiliriz.
  
  Tüm bu adımlar tamamlandığında nerdeyse güvenli bir FTP sunucusu kurmuş oluyoruz.
+ FileZilla ile bağlantı kurulduğunda gelen sertifikanın kabulü doğrultusunda SSL/TLS protokolü üzerinden şifreli bir sFTP servsi elde etmiş oluyoruz.
  Ömer Alper Karakuş
  151111032
