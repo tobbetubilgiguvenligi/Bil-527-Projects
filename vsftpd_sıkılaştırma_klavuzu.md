@@ -41,6 +41,7 @@ Sıkılaştırma işlemini gerçekleştirebilmek için etc dizini altında vsftp
 
     chmod 755 vsftpd_hardening.py 
     ./vsftpd_hardening.py
+    service vsftpd start
 
 Ancak betiğin gerçekleştirdiği adımları tek tek uygulamak da mümkündür. Tercih ettiğiniz bir dosya editörü vasıtasıyla vsftpd.conf dosyasını açın.
 
@@ -72,6 +73,7 @@ FTP yapısı gereği clear text bir protokoldür. Yani paketler şifrelenmeden a
 
     chmod 755 vsftpd_tls_enable.py
     ./vsftp_tls_enable.py
+    service vsftpd restart
 
 Öncelikle bir SSL sertifikası oluşturmamız gerekmekte bunun için  aşağıdaki komut girilerek işlemi tamamlayabiliriz.
 
