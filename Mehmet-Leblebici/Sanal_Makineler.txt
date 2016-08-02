@@ -1,1 +1,8 @@
-Sanal makineler şu an upload edilmektedir, bittiğinde linkleri buradan paylaşılacaktır. 
+Kurulum ve Kullanım Kılavuzunda kullanılan sanal makineler aşağıda verilmiştir.
+
+* Bro makinesi (Centos 7): https://www.dropbox.com/s/vtdd9xi53ahclzm/Bro.ova?dl=0
+* ELK makinesi (Centos 7): https://1drv.ms/u/s!As3AwBd2mKV2uXyvOKcdb67P9Qfu
+* Suricata makinesi (Centos 7): https://1drv.ms/u/s!As3AwBd2mKV2uXtYME1pqGQ1Sefk
+
+Tüm makinelerin normal kullanıcı ve root şifresi aşağıdadır:
+ug3uedak
