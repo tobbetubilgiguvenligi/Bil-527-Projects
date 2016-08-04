@@ -1,44 +1,44 @@
-# BroIDS Kurulum ve Kullanım Klavuzu
-***
+# BroIDS Kurulum ve KullanÄ±m Klavuzu
+![BroIDS Logo](https://pbs.twimg.com/profile_images/464030354991357952/7-h9JZh4_400x400.png)
 ### 1) BroIDS Nedir?
-**BroIDS** ilk başlarda **Vern Paxson** tarafından C++ dilinde geliştirilmeye başlanan, daha sonra açık kaynak hale gelerek herkesin katkıda bulunduğu Linux tabanlı bir **ağ trafiği analiz ve müdahale** yazılımıdır. **Bro**'nun adı, "Big Brother" yani "Büyük Kardeş"ten (Big Brother, siber güvenlik dünyasında genel olarak NSA'in lakabıdır) gelmektedir. "Büyük Kardeş"in bizi hep izlediği varsayımından esinlenilerek bu isim verilmiştir. BroIDS'in piyasada benzer işlevlere sahip diğer yazılımlardan ayırt edici özelliği, yüksek "throughput" seviyelerinde (Gigabitler) çalışabilmesidir.
+**BroIDS** ilk baÅŸlarda **Vern Paxson** tarafÄ±ndan C++ dilinde geliÅŸtirilmeye baÅŸlanan, daha sonra aÃ§Ä±k kaynak hale gelerek herkesin katkÄ±da bulunduÄŸu Linux tabanlÄ± bir **aÄŸ trafiÄŸi analiz ve mÃ¼dahale** yazÄ±lÄ±mÄ±dÄ±r. **Bro**'nun adÄ±, "Big Brother" yani "BÃ¼yÃ¼k KardeÅŸ"ten (Big Brother, siber gÃ¼venlik dÃ¼nyasÄ±nda genel olarak NSA'in lakabÄ±dÄ±r) gelmektedir. "BÃ¼yÃ¼k KardeÅŸ"in bizi hep izlediÄŸi varsayÄ±mÄ±ndan esinlenilerek bu isim verilmiÅŸtir. BroIDS'in piyasada benzer iÅŸlevlere sahip diÄŸer yazÄ±lÄ±mlardan ayÄ±rt edici Ã¶zelliÄŸi, yÃ¼ksek "throughput" seviyelerinde (Gigabitler) Ã§alÄ±ÅŸabilmesidir.
 
-Bro yazılımı :
-* Saldırı Tespit Sistemi
-* Saldırı Engelleme Sistemi
-* Ağ trafiği izleme
+Bro yazÄ±lÄ±mÄ± :
+* SaldÄ±rÄ± Tespit Sistemi
+* SaldÄ±rÄ± Engelleme Sistemi
+* AÄŸ trafiÄŸi izleme
 
-amaçları doğrultusunda kullanılabilmektedir.
+amaÃ§larÄ± doÄŸrultusunda kullanÄ±labilmektedir.
 
-Fakat biz bu yazıda **Saldırı Tespit Sistemini** inceleyeceğiz.
+Fakat biz bu yazÄ±da **SaldÄ±rÄ± Tespit Sistemini** inceleyeceÄŸiz.
 ***
 ### 2) Kurulum
 
-BroIDS kurmak için öncelikle bir Linux sisteminde olmalısınız. 
+BroIDS kurmak iÃ§in Ã¶ncelikle bir Linux sisteminde olmalÄ±sÄ±nÄ±z. 
 
-Kuruluma başlamadan önce sisteminizin **güncel** olması gerekir. Dolayısıyla, komut satırınıza : 
+Kuruluma baÅŸlamadan Ã¶nce sisteminizin **gÃ¼ncel** olmasÄ± gerekir. DolayÄ±sÄ±yla, komut satÄ±rÄ±nÄ±za : 
 
 > sudo apt-get update && apt-get upgrade
 
-yazarsanız sisteminiz güncellenir. Daha sonra, Bro'nun bilgisayarınızda çalışabilmesi için önceden yüklü olması gereken paketleri yüklemelisiniz. Bunun için :
+yazarsanÄ±z sisteminiz gÃ¼ncellenir. Daha sonra, Bro'nun bilgisayarÄ±nÄ±zda Ã§alÄ±ÅŸabilmesi iÃ§in Ã¶nceden yÃ¼klÃ¼ olmasÄ± gereken paketleri yÃ¼klemelisiniz. Bunun iÃ§in :
 
 > sudo apt-get install cmake make gcc g++ flex bison libpcap-dev libssl-dev python-dev swig zlib1g-dev
 
-yazarsanız bütün gerekli paketler indirilecektir. Artık Bro'yu indirmek için sistemimiz hazır.
+yazarsanÄ±z bÃ¼tÃ¼n gerekli paketler indirilecektir. ArtÄ±k Bro'yu indirmek iÃ§in sistemimiz hazÄ±r.
 
-Şimdi, Bro'yu indirmek istediğiniz dizine gidin. Örneğin, 
+Åimdi, Bro'yu indirmek istediÄŸiniz dizine gidin. Ã–rneÄŸin, 
 
 > cd ~/ids/
 
-Bro yazılımı açık kaynaklı olduğundan açık kaynak yazılımların bulunduğu Git sitesinde de bir deposu (repository) bulunmaktadır. Dolayısıyla yazılımı indirmek için sadece o depodaki dosyaları bilgisayarımıza indirmemiz yeterlidir. Bunun için komut satırınıza :
+Bro yazÄ±lÄ±mÄ± aÃ§Ä±k kaynaklÄ± olduÄŸundan aÃ§Ä±k kaynak yazÄ±lÄ±mlarÄ±n bulunduÄŸu Git sitesinde de bir deposu (repository) bulunmaktadÄ±r. DolayÄ±sÄ±yla yazÄ±lÄ±mÄ± indirmek iÃ§in sadece o depodaki dosyalarÄ± bilgisayarÄ±mÄ±za indirmemiz yeterlidir. Bunun iÃ§in komut satÄ±rÄ±nÄ±za :
 
 > git clone --recursive git://git.bro.org/bro
 
-yazın. Bro, otomatik olarak bulunduğunuz dizine indirlecektir. Dosyalar elimizde olduğuna göre şimdi kuruluma geçebiliriz. Öncelikle indirdiğimiz Bro klasörüne gitmemiz gerekiyor. Eğer hala aynı dizinde iseniz komut satırına :
+yazÄ±n. Bro, otomatik olarak bulunduÄŸunuz dizine indirlecektir. Dosyalar elimizde olduÄŸuna gÃ¶re ÅŸimdi kuruluma geÃ§ebiliriz. Ã–ncelikle indirdiÄŸimiz Bro klasÃ¶rÃ¼ne gitmemiz gerekiyor. EÄŸer hala aynÄ± dizinde iseniz komut satÄ±rÄ±na :
 
 > cd bro
 
-girin. Doğru klasörde olup olmadığınızı anlamak için "_ls_" komutu girin. Aşağıdakine benzer bir çıktı almanız gerekir : 
+girin. DoÄŸru klasÃ¶rde olup olmadÄ±ÄŸÄ±nÄ±zÄ± anlamak iÃ§in "_ls_" komutu girin. AÅŸaÄŸÄ±dakine benzer bir Ã§Ä±ktÄ± almanÄ±z gerekir : 
 
 ```sh
 root@kali:~/bro# ls
@@ -47,68 +47,68 @@ bro-config.h.in  CHANGES  configure       INSTALL   NEWS  README.rst  testing
 bro-path-dev.in  cmake    COPYING         Makefile  pkg   scripts     VERSION
 ```
 
-Daha sonra kuruluma başlamak için :
+Daha sonra kuruluma baÅŸlamak iÃ§in :
 
 > ./configure && make && make install
 
-yazın. Sonra kurulumunuz başlar. Tercihen, Bro'yu kuracağınız dizini belirlemek istiyorsanız "- -prefix" parametresi eklemeniz gerekir. Örnek : 
+yazÄ±n. Sonra kurulumunuz baÅŸlar. Tercihen, Bro'yu kuracaÄŸÄ±nÄ±z dizini belirlemek istiyorsanÄ±z "- -prefix" parametresi eklemeniz gerekir. Ã–rnek : 
 
 > ./configure --prefix=/etc/bro && make && make install
 
-Eklemezseniz otomatik olarak "/usr/local/bro" klasörüne kurar.
+Eklemezseniz otomatik olarak "/usr/local/bro" klasÃ¶rÃ¼ne kurar.
 
-Kurulumunuz bitince Bro kullanıma hazırdır.
+Kurulumunuz bitince Bro kullanÄ±ma hazÄ±rdÄ±r.
 
-Son olarak Bro'yu her dizinden komut satırından çalıştırabilmek için "PATH"e ekleriz (eğer - -prefix parametresini eklemediyseniz) :
+Son olarak Bro'yu her dizinden komut satÄ±rÄ±ndan Ã§alÄ±ÅŸtÄ±rabilmek iÃ§in "PATH"e ekleriz (eÄŸer - -prefix parametresini eklemediyseniz) :
 
 > export PATH=/usr/local/bro/bin:$PATH
 
-### 3) Kullanım
+### 3) KullanÄ±m
 ***
 ##### a) broctl
 
-Bro, yazılımı kontrol etmek için bir kontrol betiğine (script) sahiptir ; **broctl**
+Bro, yazÄ±lÄ±mÄ± kontrol etmek iÃ§in bir kontrol betiÄŸine (script) sahiptir ; **broctl**
 
-Komut satırına :
+Komut satÄ±rÄ±na :
 
 > broctl
 
-girin ve Bro arayüzüyle karşılaşacaksınız. Burada :
+girin ve Bro arayÃ¼zÃ¼yle karÅŸÄ±laÅŸacaksÄ±nÄ±z. Burada :
 
 > help
 
-komutu girerseniz size yardımcı olacak, hangi komutları girebileceğinizi yazan ekran gelir. Komut satırına :
+komutu girerseniz size yardÄ±mcÄ± olacak, hangi komutlarÄ± girebileceÄŸinizi yazan ekran gelir. Komut satÄ±rÄ±na :
 
 > start 
 
-girin. Bro bu komut sonrasında çalışır duruma geçer. Emin olmak için : 
+girin. Bro bu komut sonrasÄ±nda Ã§alÄ±ÅŸÄ±r duruma geÃ§er. Emin olmak iÃ§in : 
 
 > status
 
-komutunu girin. Bro'nun prosesi (process) hakkında bilgi alacaksınız.
+komutunu girin. Bro'nun prosesi (process) hakkÄ±nda bilgi alacaksÄ±nÄ±z.
 
-Bro şu anda paketleri yakalayıp içerisinde zaten bulunmakta olan imzalara yönelik alarmlar üretmekte.
+Bro ÅŸu anda paketleri yakalayÄ±p iÃ§erisinde zaten bulunmakta olan imzalara yÃ¶nelik alarmlar Ã¼retmekte.
 
-Birkaç komut örneği :
+BirkaÃ§ komut Ã¶rneÄŸi :
 
 ```sh
 stop        # Bro'yu durdurur
-update      # Konfigürasyon dosyalarını günceller
-restart     # Bro'yu yeniden başlatır
-exit        # broctl'den çıkar
-diag        # Herhangi bir sorun çıkınca logları bu komutla görebilirsiniz
+update      # KonfigÃ¼rasyon dosyalarÄ±nÄ± gÃ¼nceller
+restart     # Bro'yu yeniden baÅŸlatÄ±r
+exit        # broctl'den Ã§Ä±kar
+diag        # Herhangi bir sorun Ã§Ä±kÄ±nca loglarÄ± bu komutla gÃ¶rebilirsiniz
 ```
 ##### b) Loglar
 
-Bro'nun ürettiği logları görebilmek için önce **broctl**'den çıkın :
+Bro'nun Ã¼rettiÄŸi loglarÄ± gÃ¶rebilmek iÃ§in Ã¶nce **broctl**'den Ã§Ä±kÄ±n :
 
 > exit
 
-Şimdi, Bro'nun ürettiği loglara gözatmak için aşağıdaki komut ile internetten bir dosya indirin : 
+Åimdi, Bro'nun Ã¼rettiÄŸi loglara gÃ¶zatmak iÃ§in aÅŸaÄŸÄ±daki komut ile internetten bir dosya indirin : 
 
 > wget www.testmyids.com
 
-Sonra Bro'yu kurduğunuz dizindeki "logs" klasörüne gidin :
+Sonra Bro'yu kurduÄŸunuz dizindeki "logs" klasÃ¶rÃ¼ne gidin :
 
 > cd /usr/local/bro/logs/
 
@@ -116,7 +116,7 @@ Burada :
 
 > ls
 
-komutunu çalıştırın. Çıktı olarak şu ana kadar üretilen logların tarih olarak ayırt edilmiş olacağını ve kaydetmekte olduğunuz trafik loglarını "current" klasörü içinde göreceksiniz :
+komutunu Ã§alÄ±ÅŸtÄ±rÄ±n. Ã‡Ä±ktÄ± olarak ÅŸu ana kadar Ã¼retilen loglarÄ±n tarih olarak ayÄ±rt edilmiÅŸ olacaÄŸÄ±nÄ± ve kaydetmekte olduÄŸunuz trafik loglarÄ±nÄ± "current" klasÃ¶rÃ¼ iÃ§inde gÃ¶receksiniz :
 
 > cd current
 
@@ -124,19 +124,19 @@ Sonra :
 
 > ls
 
-Burada kategorilere ayrılmış log dosyalarını göreceksiniz (http.log, dns.log, weird.log, conn.log... vb.). Herhangi birini incelemek için, örneğin :
+Burada kategorilere ayrÄ±lmÄ±ÅŸ log dosyalarÄ±nÄ± gÃ¶receksiniz (http.log, dns.log, weird.log, conn.log... vb.). Herhangi birini incelemek iÃ§in, Ã¶rneÄŸin :
 
 > less http.log
 
-komutunu girin. Burada Bro'nun ürettiği http loglarını görmektesiniz. Bro herhangi bir zararlı veya dikkate değer paket yakalarsa bunu notice.log içerisine kaydeder.
+komutunu girin. Burada Bro'nun Ã¼rettiÄŸi http loglarÄ±nÄ± gÃ¶rmektesiniz. Bro herhangi bir zararlÄ± veya dikkate deÄŸer paket yakalarsa bunu notice.log iÃ§erisine kaydeder.
 
-##### c) İmzalar
+##### c) Ä°mzalar
 
-Bro, imzaları için kendine özgü bir dile sahiptir. Örnek bir imza dosyasının içeriğine bakmak istiyorsanız aşağıdaki komutu girin :
+Bro, imzalarÄ± iÃ§in kendine Ã¶zgÃ¼ bir dile sahiptir. Ã–rnek bir imza dosyasÄ±nÄ±n iÃ§eriÄŸine bakmak istiyorsanÄ±z aÅŸaÄŸÄ±daki komutu girin :
 
 > less /usr/local/bro/share/bro/base/protocols/dhcp/dpd.sig
 
-Karşınıza buna benzer bir ekran gelir :
+KarÅŸÄ±nÄ±za buna benzer bir ekran gelir :
 
 ```
 signature dhcp_cookie {
@@ -146,16 +146,16 @@ signature dhcp_cookie {
 }
 ```
 
-Bu imza dhcp paketleri için yazılmıştır. İmzanın anlamı :
-* Protokolü UDP olan
-* paketin içerik (payload) kısmında "/^.*\x63\x82\x53\x63/" yani "cSc" gibi bir şey varsa
-* Bro'nun içinde var olan dhcp protokol analizcisini etkinleştir
+Bu imza dhcp paketleri iÃ§in yazÄ±lmÄ±ÅŸtÄ±r. Ä°mzanÄ±n anlamÄ± :
+* ProtokolÃ¼ UDP olan
+* paketin iÃ§erik (payload) kÄ±smÄ±nda "/^.*\x63\x82\x53\x63/" yani "cSc" gibi bir ÅŸey varsa
+* Bro'nun iÃ§inde var olan dhcp protokol analizcisini etkinleÅŸtir
 
-İmzaların payload kısmı, iki tane "/" karakteri arasındaki "regular expression"ları algılar.
+Ä°mzalarÄ±n payload kÄ±smÄ±, iki tane "/" karakteri arasÄ±ndaki "regular expression"larÄ± algÄ±lar.
 
-Kendi imzamızı yazmayı öğrenmek istiyorsak Bro'nun https://www.bro.org/sphinx/frameworks/signatures.html sitesini ziyaret edebiliriz.
+Kendi imzamÄ±zÄ± yazmayÄ± Ã¶ÄŸrenmek istiyorsak Bro'nun https://www.bro.org/sphinx/frameworks/signatures.html sitesini ziyaret edebiliriz.
 
-Bro, imzalarını /usr/local/bro/share/bro/base/protocols/ dizininin alt klasörlerinde tutuyor. Bu klasöre gidersek :
+Bro, imzalarÄ±nÄ± /usr/local/bro/share/bro/base/protocols/ dizininin alt klasÃ¶rlerinde tutuyor. Bu klasÃ¶re gidersek :
 
 > cd /usr/local/bro/share/bro/base/protocols/
 
@@ -163,7 +163,7 @@ ve
 
 > ls
 
-çalıştırırsak, bazı protokolleri görürüz (http, ftp, dchp vb.) bunlardan herhangi birine girince :
+Ã§alÄ±ÅŸtÄ±rÄ±rsak, bazÄ± protokolleri gÃ¶rÃ¼rÃ¼z (http, ftp, dchp vb.) bunlardan herhangi birine girince :
 
 > cd http
 
@@ -171,11 +171,11 @@ ve
 
 > ls
 
-burada http protokolünü analiz etmek için kullanılan dosyalar var. Bunlardan "sig" uzantılı dosya imzaların (signature) olduğu dosyadır. Basit bir imza yazacak olursak :
+burada http protokolÃ¼nÃ¼ analiz etmek iÃ§in kullanÄ±lan dosyalar var. Bunlardan "sig" uzantÄ±lÄ± dosya imzalarÄ±n (signature) olduÄŸu dosyadÄ±r. Basit bir imza yazacak olursak :
 
 > nano dpd.sig
 
-dosyada görebileceğiniz gibi önceden yazılmış imzalar var. Bir tane basit bir imza ekleyecek olursak :
+dosyada gÃ¶rebileceÄŸiniz gibi Ã¶nceden yazÄ±lmÄ±ÅŸ imzalar var. Bir tane basit bir imza ekleyecek olursak :
 
 ```
 signature imza {
@@ -190,27 +190,27 @@ signature imza {
 Bu imza :
 * Protokol TCP ise
 * Hedef portu 80 ise
-* Alarm üretir ve mesajını "basarili" olarak belirler
+* Alarm Ã¼retir ve mesajÄ±nÄ± "basarili" olarak belirler
 
-Şimdi imzamızı görmesi için Bro'yu baştan başlatmamız gerekli : 
+Åimdi imzamÄ±zÄ± gÃ¶rmesi iÃ§in Bro'yu baÅŸtan baÅŸlatmamÄ±z gerekli : 
 
 > broctl restart
 
-Eğer Bro başlarken hata oluşursa yazım hatalarını kontrol edin.
+EÄŸer Bro baÅŸlarken hata oluÅŸursa yazÄ±m hatalarÄ±nÄ± kontrol edin.
 
-Daha sonra alarm üretebilecek bir paket alış-verişinde bulunalım :
+Daha sonra alarm Ã¼retebilecek bir paket alÄ±ÅŸ-veriÅŸinde bulunalÄ±m :
 
 > wget www.google.com
 
-İmzamızın çalışıp çalışmadığını görebilmek için daha önce baktığımız http.log dosyasına bakalım : 
+Ä°mzamÄ±zÄ±n Ã§alÄ±ÅŸÄ±p Ã§alÄ±ÅŸmadÄ±ÄŸÄ±nÄ± gÃ¶rebilmek iÃ§in notice.log dosyasÄ±na bakalÄ±m : 
 
 > cat /usr/local/bro/logs/current/notice.log && grep -i --color basarili
 
-Bu komutu giridiğinizde karşınıza üretilen alarm ve detayları çıkmalıdır.
+Bu komutu giridiÄŸinizde karÅŸÄ±nÄ±za Ã¼retilen alarm ve detaylarÄ± Ã§Ä±kmalÄ±dÄ±r.
 
-Bu arada dikkat ettiyseniz "notice.log" dosyası oluşmuş. Öncesinde log dosyalarına baktığımızda yoktu. Bunun nedeni Bro'nun bir imzaya uyan paket görüp tehdit olarak "notice.log"a eklemesidir.
+Bu arada dikkat ettiyseniz "notice.log" dosyasÄ± oluÅŸmuÅŸ. Ã–ncesinde log dosyalarÄ±na baktÄ±ÄŸÄ±mÄ±zda yoktu. Bunun nedeni Bro'nun bir imzaya uyan paket gÃ¶rÃ¼p tehdit olarak "notice.log"a eklemesidir.
 
-Başka bir imza yazacak olursak :
+BaÅŸka bir imza yazacak olursak :
 
 ```
 signature karaliste {
@@ -224,14 +224,14 @@ signature karaliste {
 
 Bu imzada :
 * Protokol TCP ise
-* Hedef IP karalisteye (blacklisting) aldığımız IP'lerden biriyse
-* Alarm üretir ve mesajını "saldiri" olarak tanımlar
+* Hedef IP karalisteye (blacklisting) aldÄ±ÄŸÄ±mÄ±z IP'lerden biriyse
+* Alarm Ã¼retir ve mesajÄ±nÄ± "saldiri" olarak tanÄ±mlar
 
-Bu imzayı aşağıdaki komutla yakalabiliriz :
+Bu imzayÄ± aÅŸaÄŸÄ±daki komutla yakalabiliriz :
 
 > wget www.badssl.com
 
-Başka bir imza örneği :
+BaÅŸka bir imza Ã¶rneÄŸi :
 
 ```
 signature LAND-sig {
@@ -242,9 +242,9 @@ signature LAND-sig {
 }
 ```
 
-Bu imzada ise sistem, LAND saldırısını yakalıyor. Hedef ve kaynak IP adresi eşit ise "LAND saldirisi!" mesajlı bir alarm üretir.
+Bu imzada ise sistem, LAND saldÄ±rÄ±sÄ±nÄ± yakalÄ±yor. Hedef ve kaynak IP adresi eÅŸit ise "LAND saldirisi!" mesajlÄ± bir alarm Ã¼retir.
 
-Son bir imza örneği ise :
+Son bir imza Ã¶rneÄŸi ise :
 
 ```
 signature attack-sig {
@@ -256,9 +256,9 @@ signature attack-sig {
 ```
 
 Bu imza :
-* TCP kullanıyorsa
+* TCP kullanÄ±yorsa
 * Hedef port 80 ise
-* İçeriğinde ".*root" olan
-* Paket gördüğünde mesajı "root" olan bir alarm üretir.
+* Ä°Ã§eriÄŸinde ".*root" olan
+* Paket gÃ¶rdÃ¼ÄŸÃ¼nde mesajÄ± "root" olan bir alarm Ã¼retir.
 
 
